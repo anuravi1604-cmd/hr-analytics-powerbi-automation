@@ -1,5 +1,10 @@
 # Enterprise HR Automation & People Analytics System
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/anuravi1604-cmd/hr-analytics-powerbi-automation)
+[![Live Streamlit App](https://img.shields.io/badge/Live-Streamlit%20App-red?style=flat&logo=streamlit)](https://hr-analytics-powerbi-automation-anuravi1604.streamlit.app/)
+[![Live Power BI Dashboard](https://img.shields.io/badge/Live-Power%20BI%20Dashboard-yellow?style=flat&logo=powerbi)](https://app.powerbi.com/)
+
+
 This project is a fully realized, enterprise-grade HR Analytics and Business Automation solution. It spans data entry validation (**VBA**), advanced data engineering/ETL (**Power Query**), core calculations (**DAX**), interactive visualizations, AI-assisted summaries (**Microsoft Copilot**), and action-oriented alerts (**Power Automate**).
 
 ---
