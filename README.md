@@ -1,7 +1,7 @@
 # Enterprise HR Automation & People Analytics System
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/anuravi1604-cmd/hr-analytics-powerbi-automation)
-[![Live Streamlit App](https://img.shields.io/badge/Live-Streamlit%20App-red?style=flat&logo=streamlit)](https://hr-analytics-powerbi-automation-anuravi1604.streamlit.app/)
+[![Live Streamlit App](https://img.shields.io/badge/Live-Streamlit%20App-red?style=flat&logo=streamlit)](https://hr-analytics-powerbi-automation-1604.streamlit.app/)
 [![Live Power BI Dashboard](https://img.shields.io/badge/Live-Power%20BI%20Dashboard-yellow?style=flat&logo=powerbi)](https://app.powerbi.com/)
 
 
