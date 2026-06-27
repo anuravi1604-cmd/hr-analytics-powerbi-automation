@@ -1,0 +1,137 @@
+// ==============================================================================
+// Component: Power Query (M Code) Transformations
+// Purpose: Advanced ETL pipeline to import, clean, structure, and enhance
+//          the HR Attrition dataset inside Power BI.
+// ==============================================================================
+
+/*
+--------------------------------------------------------------------------------
+QUERY 1: Fact_Employees (Data Transformation & Feature Engineering)
+--------------------------------------------------------------------------------
+Instructions:
+1. In Power BI Desktop, click "Transform Data" to open the Power Query Editor.
+2. Create a new Blank Query (Home -> New Source -> Blank Query).
+3. Click "Advanced Editor" and paste the M-code below (replace path with your CSV file path).
+*/
+
+let
+    // 1. Source: Import CSV file (Update file path to match your environment)
+    Source = Csv.Document(File.Contents("C:\Users\YourUsername\Documents\hr_analytics_powerbi\hr_employee_data.csv"), [Delimiter=",", Columns=20, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    
+    // 2. Promote Headers
+    PromoteHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    
+    // 3. Change Data Types
+    ChangeTypes = Table.TransformColumnTypes(PromoteHeaders,{
+        {"Employee_ID", type text}, 
+        {"Age", Int64.Type}, 
+        {"Gender", type text}, 
+        {"Marital_Status", type text}, 
+        {"Education_Field", type text}, 
+        {"Department", type text}, 
+        {"Job_Role", type text}, 
+        {"Job_Level", Int64.Type}, 
+        {"Annual_Salary", type number}, 
+        {"Monthly_Income", type number}, 
+        {"Years_At_Company", Int64.Type}, 
+        {"Years_Since_Last_Promotion", Int64.Type}, 
+        {"Training_Hours_Last_Year", Int64.Type}, 
+        {"Overtime", type text}, 
+        {"Job_Satisfaction", Int64.Type}, 
+        {"Environment_Satisfaction", Int64.Type}, 
+        {"Work_Life_Balance", Int64.Type}, 
+        {"Performance_Rating", Int64.Type}, 
+        {"Percent_Salary_Hike", Int64.Type}, 
+        {"Attrition", type text}
+    }),
+    
+    // 4. Feature Engineering: Add Age Grouping (Conditional Column)
+    AddAgeGroup = Table.AddColumn(ChangeTypes, "Age_Group", each 
+        if [Age] < 25 then "< 25" 
+        else if [Age] <= 34 then "25 - 34" 
+        else if [Age] <= 44 then "35 - 44" 
+        else if [Age] <= 54 then "45 - 54" 
+        else "55+"
+    , type text),
+    
+    // 5. Feature Engineering: Convert Attrition to Numeric Flag (Yes=1, No=0)
+    // This allows easy mathematical aggregations (Average Attrition = Attrition Rate)
+    AddAttritionFlag = Table.AddColumn(AddAgeGroup, "Attrition_Flag", each 
+        if [Attrition] = "Yes" then 1 else 0
+    , Int64.Type),
+
+    // 6. Clean Text: Trim text fields to prevent relationship and search mismatches
+    TrimText = Table.TransformColumns(AddAttritionFlag,{
+        {"Gender", Text.Trim, type text},
+        {"Department", Text.Trim, type text},
+        {"Job_Role", Text.Trim, type text},
+        {"Overtime", Text.Trim, type text}
+    }),
+
+    // 7. Capitalize text for standard casing formatting
+    ProperCase = Table.TransformColumns(TrimText,{
+        {"Gender", Text.Proper, type text},
+        {"Department", Text.Proper, type text},
+        {"Job_Role", Text.Proper, type text}
+    })
+in
+    ProperCase
+
+
+/*
+--------------------------------------------------------------------------------
+QUERY 2: Dim_Calendar (Dynamic Date Table for Time Intelligence Calculations)
+--------------------------------------------------------------------------------
+Instructions:
+1. In Power Query Editor, click "New Source" -> "Blank Query".
+2. Name the query "Dim_Calendar".
+3. Open the "Advanced Editor" and paste the M-code below.
+4. This script automatically builds a calendar centered around the corporate year span.
+*/
+
+let
+    // Define the Start and End Years
+    StartYear = 2020,
+    EndYear = 2026,
+    
+    // Create Date Range
+    StartDate = #date(StartYear, 1, 1),
+    EndDate = #date(EndYear, 12, 31),
+    
+    // Calculate number of days in range
+    NumberOfDays = Duration.Days(EndDate - StartDate) + 1,
+    
+    // Generate Dates List
+    DatesList = List.Dates(StartDate, NumberOfDays, #duration(1, 0, 0, 0)),
+    
+    // Convert List to Table
+    TableFromList = Table.FromList(DatesList, Splitter.SplitByNothing(), {"Date"}, null, ExtraValues.Error),
+    
+    // Set column data type to Date
+    SetDateType = Table.TransformColumnTypes(TableFromList,{{"Date", type date}}),
+    
+    // Extract Year
+    AddYear = Table.AddColumn(SetDateType, "Year", each Date.Year([Date]), Int64.Type),
+    
+    // Extract Month Number (for sorting)
+    AddMonthNum = Table.AddColumn(AddYear, "Month_Number", each Date.Month([Date]), Int64.Type),
+    
+    // Extract Month Name (First 3 Letters)
+    AddMonthName = Table.AddColumn(AddMonthNum, "Month_Name", each Text.Start(Date.MonthName([Date]), 3), type text),
+    
+    // Extract Quarter (Format: Q1, Q2, etc.)
+    AddQuarter = Table.AddColumn(AddMonthName, "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date])), type text),
+    
+    // Extract Week of Year
+    AddWeekOfYear = Table.AddColumn(AddQuarter, "Week_Of_Year", each Date.WeekOfYear([Date]), Int64.Type),
+    
+    // Extract Day of Week (0-6)
+    AddDayOfWeek = Table.AddColumn(AddWeekOfYear, "Day_Of_Week", each Date.DayOfWeek([Date]), Int64.Type),
+    
+    // Extract Day Name (First 3 Letters)
+    AddDayName = Table.AddColumn(AddDayOfWeek, "Day_Name", each Text.Start(Date.DayOfWeekName([Date]), 3), type text),
+    
+    // Combine Year & Month (Format: 2026-Jan) for historical trends
+    AddYearMonth = Table.AddColumn(AddDayName, "Year_Month", each Text.From([Year]) & "-" & [Month_Name], type text)
+in
+    AddYearMonth
