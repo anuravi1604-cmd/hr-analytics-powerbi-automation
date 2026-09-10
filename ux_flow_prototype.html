@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Manager UX Flow — Flight Risk Alert & Intervention Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0e1a;
+      --card-bg: rgba(17, 24, 39, 0.85);
+      --border: rgba(255, 255, 255, 0.1);
+      --primary: #3b82f6;
+      --danger: #ef4444;
+      --warning: #f59e0b;
+      --success: #10b981;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text);
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+
+    .pill {
+      background: rgba(59, 130, 246, 0.15);
+      color: var(--primary);
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .prototype-steps {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .step-btn {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.8rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .step-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .screen-view {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .screen-view.active { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Screen 1: Teams Adaptive Card */
+    .teams-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #1e1f29;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+
+    .teams-header {
+      background: #2b2b3b;
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: #b3b3c6;
+    }
+
+    .teams-body {
+      padding: 1.5rem;
+    }
+
+    .alert-badge {
+      display: inline-block;
+      background: rgba(239, 68, 68, 0.2);
+      color: var(--danger);
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .emp-profile {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .emp-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #3b82f6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+
+    .risk-score-display {
+      margin-left: auto;
+      text-align: right;
+    }
+
+    .risk-score-display .score {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--danger);
+    }
+
+    .teams-factors {
+      background: rgba(0,0,0,0.25);
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .teams-factors li {
+      margin-bottom: 0.4rem;
+      list-style: none;
+    }
+
+    .teams-actions {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      padding: 0.65rem 1.2rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover { filter: brightness(1.1); }
+    .btn-secondary { background: rgba(255,255,255,0.08); color: var(--text); }
+
+    /* Screen 2: Risk Dossier */
+    .dossier-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .waterfall-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+
+    .waterfall-bar {
+      height: 8px;
+      border-radius: 4px;
+      background: var(--danger);
+      margin-top: 0.25rem;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .modal-box {
+      background: #111827;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 520px;
+      width: 90%;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 0.65rem 0.8rem;
+      background: rgba(0,0,0,0.3);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 0.85rem;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--success);
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 700;
+      display: none;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-bar">
+      <div>
+        <h2>HR Manager Alert & Retention Interaction Flow</h2>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+          Figma Prototype Demonstration: From Real-Time Flight-Risk Alert to Operational Retention Action
+        </p>
+      </div>
+      <div class="pill">Figma UX Specification Demo</div>
+    </div>
+
+    <!-- Step Navigation -->
+    <div class="prototype-steps">
+      <button class="step-btn active" onclick="gotoStep(1)">1. Microsoft Teams Alert</button>
+      <button class="step-btn" onclick="gotoStep(2)">2. Retention Risk Dossier</button>
+      <button class="step-btn" onclick="openModal()">3. Action Intervention Modal</button>
+    </div>
+
+    <!-- SCREEN 1: TEAMS ADAPTIVE CARD -->
+    <div id="screen1" class="screen-view active">
+      <div class="teams-container">
+        <div class="teams-header">
+          <span>🔔</span> Microsoft Teams &bull; People Analytics Bot &bull; Just now
+        </div>
+        <div class="teams-body">
+          <span class="alert-badge">⚠️ HIGH FLIGHT-RISK DETECTED</span>
+          
+          <div class="emp-profile">
+            <div class="emp-avatar">AR</div>
+            <div>
+              <div style="font-weight: 700;">Alex Rivera</div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">Senior Cloud Architect &bull; Engineering</div>
+            </div>
+            <div class="risk-score-display">
+              <div class="score">84/100</div>
+              <div style="font-size: 0.65rem; color: var(--danger); font-weight: 700; text-transform: uppercase;">Critical Tier</div>
+            </div>
+          </div>
+
+          <div class="teams-factors">
+            <div style="font-weight: 700; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase;">
+              Top Flight Drivers Triggered:
+            </div>
+            <li>🔥 <strong>Frequent Overtime:</strong> > 18 hrs/mo sustained over last quarter</li>
+            <li>⏳ <strong>Career Stagnation:</strong> 4.2 years without role elevation</li>
+            <li>📉 <strong>Market Pay Gap:</strong> Base salary is 14% below internal role median</li>
+          </div>
+
+          <div class="teams-actions">
+            <button class="btn btn-primary" style="flex: 1;" onclick="gotoStep(2)">
+              🔍 Review in Risk Portal
+            </button>
+            <button class="btn btn-secondary" onclick="alert('Alert snoozed for 14 days.')">
+              Snooze
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 2: RETENTION RISK DOSSIER -->
+    <div id="screen2" class="screen-view">
+      <div class="dossier-grid">
+        <!-- Sidebar -->
+        <div class="card">
+          <div style="text-align: center; margin-bottom: 1.5rem;">
+            <div class="emp-avatar" style="width: 64px; height: 64px; margin: 0 auto 0.75rem; font-size: 1.25rem;">AR</div>
+            <h3>Alex Rivera</h3>
+            <div style="color: var(--text-muted); font-size: 0.85rem;">Senior Cloud Architect</div>
+          </div>
+
+          <div style="border-top: 1px solid var(--border); padding-top: 1rem; font-size: 0.85rem;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+              <span style="color: var(--text-muted);">Tenure:</span>
+              <strong>5.5 Years</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+              <span style="color: var(--text-muted);">Performance:</span>
+              <strong style="color: var(--success);">4.5 / 5.0 (Top 10%)</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+              <span style="color: var(--text-muted);">Annual Base:</span>
+              <strong>$132,000</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+              <span style="color: var(--text-muted);">Replacement Cost:</span>
+              <strong style="color: var(--danger);">$66,000</strong>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;" onclick="openModal()">
+            ⚡ Initiate Retention Plan
+          </button>
+        </div>
+
+        <!-- Main Risk Analysis -->
+        <div class="card">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+            <h3>Root-Cause Risk Score Attribution (84 / 100)</h3>
+            <span class="pill" style="background: rgba(239,68,68,0.2); color: var(--danger);">High Flight-Risk</span>
+          </div>
+
+          <div class="waterfall-row">
+            <div>
+              <div style="font-weight: 700;">Overtime Stress Load</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Logged 55 hours OT over last 90 days</div>
+              <div class="waterfall-bar" style="width: 280px;"></div>
+            </div>
+            <div style="font-weight: 800; color: var(--danger);">+35 pts</div>
+          </div>
+
+          <div class="waterfall-row">
+            <div>
+              <div style="font-weight: 700;">Promotion Stagnation</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Exceeded role average tenure by 1.8 years</div>
+              <div class="waterfall-bar" style="width: 200px; background: var(--warning);"></div>
+            </div>
+            <div style="font-weight: 800; color: var(--warning);">+25 pts</div>
+          </div>
+
+          <div class="waterfall-row">
+            <div>
+              <div style="font-weight: 700;">Compensation Competitiveness</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Base salary is in the 38th percentile of role band</div>
+              <div class="waterfall-bar" style="width: 140px; background: var(--warning);"></div>
+            </div>
+            <div style="font-weight: 800; color: var(--warning);">+18 pts</div>
+          </div>
+
+          <div class="waterfall-row" style="border-bottom: none;">
+            <div>
+              <div style="font-weight: 700;">Pulse Survey Engagement</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Work-life balance rating dropped from 4 to 2</div>
+              <div class="waterfall-bar" style="width: 60px; background: #60a5fa;"></div>
+            </div>
+            <div style="font-weight: 800; color: #60a5fa;">+6 pts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 3: INTERVENTION MODAL -->
+    <div id="interventionModal" class="modal-overlay" style="display: none;">
+      <div class="modal-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+          <h4>Log Retention Action Plan</h4>
+          <button style="background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.2rem;" onclick="closeModal()">✕</button>
+        </div>
+
+        <form onsubmit="event.preventDefault(); submitAction();">
+          <div class="form-group">
+            <label>Target Employee</label>
+            <input type="text" class="form-input" value="Alex Rivera (ID: EMP-1049)" readonly>
+          </div>
+
+          <div class="form-group">
+            <label>Selected Retention Intervention</label>
+            <select class="form-select" id="actStrategy">
+              <option value="Stay Interview">Schedule Urgent 1-on-1 Stay Interview</option>
+              <option value="Comp Adjustment">Submit Out-of-Cycle Compensation Review (+12%)</option>
+              <option value="Workload Balancing">Workload Balancing (Cap Overtime < 5 hrs/mo)</option>
+              <option value="Career Fast-Track">Assign Tech Leadership Track & Staff Architect Mentorship</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Responsible Stakeholders</label>
+            <input type="text" class="form-input" value="Sarah Jenkins (Direct Manager), Mark Vance (HRBP)">
+          </div>
+
+          <div class="form-group">
+            <label>Intervention Notes</label>
+            <textarea class="form-textarea" rows="3" placeholder="Add confidential context for HR and Direct Manager..."></textarea>
+          </div>
+
+          <div style="display: flex; gap: 0.75rem; margin-top: 1.5rem;">
+            <button type="submit" class="btn btn-primary" style="flex: 1;">
+              Confirm & Dispatch Action Plan
+            </button>
+            <button type="button" class="btn btn-secondary" onclick="closeModal()">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="toastAlert" class="toast">
+      ✓ Action Plan successfully dispatched to Manager & logged to HRMS!
+    </div>
+  </div>
+
+  <script>
+    function gotoStep(stepNum) {
+      document.querySelectorAll('.screen-view').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.step-btn').forEach(el => el.classList.remove('active'));
+
+      const screen = document.getElementById(`screen${stepNum}`);
+      if (screen) screen.classList.add('active');
+
+      const btn = document.querySelectorAll('.step-btn')[stepNum - 1];
+      if (btn) btn.classList.add('active');
+    }
+
+    function openModal() {
+      document.getElementById('interventionModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('interventionModal').style.display = 'none';
+    }
+
+    function submitAction() {
+      closeModal();
+      const toast = document.getElementById('toastAlert');
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none'; }, 4000);
+      gotoStep(2);
+    }
+  </script>
+</body>
+</html>
