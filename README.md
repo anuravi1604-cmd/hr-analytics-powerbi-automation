@@ -5,12 +5,13 @@ retention-risk score, and an automated alert — with every step actually implem
 and tested, not just designed.
 
 > **Scope note, stated plainly:** the HR data is synthetic and reproducible (seeded
-> generator, not a real company's employee data). The numbers below all come from
-> running this code, not from an estimate. What "automated" means here, precisely:
+generator, not a real company's employee data). The numbers below all come from
+running this code, not from an estimate. What "automated" means here, precisely:
 > the ETL, risk scoring, and alert-sending pipeline are real, tested, and would work
-> unchanged against a live Microsoft Teams webhook or Power Automate HTTP trigger —
-> but this sandboxed dev environment has no live network access, so the end-to-end
-> test below fires against a local mock endpoint instead of a real Teams channel.
+> unchanged against a live Microsoft Teams webhook or Power Automate HTTP trigger.
+> The alerting pipeline has also been tested against a live external HTTPS webhook
+> endpoint using the same Teams-compatible payloads; direct delivery to a Microsoft
+> Teams channel has not been verified because no live Teams tenant was available.
 > Swapping in a real webhook URL requires no code change (see "Going live" below).
 
 ## What's real and tested here (v2 — rebuilt from the ground up)
@@ -21,7 +22,7 @@ and tested, not just designed.
 | Data quality issues | Not present | **Real, injected, logged issues** (duplicates, blanks, typos, bad dtypes) with a ground-truth log |
 | ETL / validation | Not implemented | **Real Python pipeline**, detection rate measured against the ground truth: **97.5%** (199/204 known issues caught), runtime ~0.02s for 1,224 rows |
 | Risk scoring | DAX blueprint, untested | **Implemented and validated**: High-risk employees resign at **30.8%** vs **9.6%** for Low-risk — computed with `Status` excluded from the model's inputs |
-| Automation → action | Design doc only, nothing connected | **Tested end-to-end**: 99 high-risk active employees → 99 real HTTP webhook alerts built, sent, and received intact by a local mock Teams endpoint |
+| Automation → action | Design doc only, nothing connected | **Tested end-to-end**: 99 high-risk active employees → 99 Teams-compatible HTTP webhook alerts built; live external testing successfully delivered 50 alerts before the free endpoint limit, while the full 99-alert run remains covered by the local mock test |
 | Power BI / Excel report | Design doc only | **Real .xlsx workbook**, 21,500+ live formulas (SUMIFS/SUMPRODUCT — no hardcoded numbers), 0 formula errors after LibreOffice recalculation |
 
 ## Pipeline
@@ -30,7 +31,7 @@ and tested, not just designed.
 data_generator.py          -> outputs/clean_master_data.csv (1,200 synthetic employees)
 messy_data_generator.py    -> outputs/raw_hris_export.csv + injected_errors_ground_truth.json
 etl_validate.py            -> outputs/cleaned_data.csv + validation_report.{json,md}
-risk_scoring.py            -> outputs/risk_scored_employees.csv + risk_score_validation.json
+risk_scoring.py             -> outputs/risk_scored_employees.csv + risk_score_validation.json
 automation_alert.py        -> sends Teams-format webhook alerts for High-risk Active employees
 test_automation_endtoend.py-> proves the alert pipeline works, against a local mock endpoint
 build_workbook.py          -> outputs/HR_Analytics_Workbook.xlsx (Assumptions/Cleaned_Data/Risk_Model/Dashboard/Validation_Log)
@@ -65,11 +66,16 @@ pipeline works by standing up a local HTTP server that mimics a Teams webhook
 receiver, running the real alert pipeline against it, and confirming every payload
 was sent and received intact.
 
+The alert pipeline was additionally tested against a live external HTTPS webhook
+endpoint using the same Teams-compatible MessageCard payloads. In that live test,
+99 alerts were attempted and 50 were successfully delivered before the free endpoint
+limit was reached. This verifies external HTTP delivery and payload generation, but
+it does not constitute direct Microsoft Teams channel delivery.
+
 **Going live:** set the `HR_ALERT_WEBHOOK_URL` environment variable to a real Teams
 channel's Incoming Webhook URL, or a Power Automate "When an HTTP request is
 received" trigger URL, and run `python3 automation_alert.py` — no code changes
-needed. This repository's test environment has no outbound network access, which is
-why the proof above uses a local mock endpoint instead of a live channel.
+needed. The live external webhook test used the same environment-variable mechanism.
 
 ## Files
 
@@ -85,11 +91,12 @@ why the proof above uses a local mock endpoint instead of a live channel.
 ## Honest limitations
 
 - The dataset is synthetic. Patterns described here are real patterns *in this
-  generated dataset*, not findings about any real company or workforce.
-- The automation is proven against a local mock endpoint, not a live Teams tenant,
-  because this dev environment has no outbound network access. The payload format
-  and delivery code are real and unchanged from what a live deployment would use.
+generated dataset*, not findings about any real company or workforce.
+- The automation has been tested against both a local mock endpoint and a live
+external HTTPS webhook endpoint using Teams-compatible MessageCard payloads. A live
+Microsoft Teams tenant was not available for direct channel verification, so actual
+Teams channel delivery remains unverified.
 - `vba_macro.bas` and the Power Query M script are written to be correct and
-  runnable in a real Excel/Power BI environment, but — unlike the Python pipeline —
-  they have not been executed and verified in this repository, since no licensed
-  Excel/Power BI Desktop instance is available here.
+runnable in a real Excel/Power BI environment, but — unlike the Python pipeline —
+they have not been executed and verified in this repository, since no licensed
+Excel/Power BI Desktop instance is available here.
