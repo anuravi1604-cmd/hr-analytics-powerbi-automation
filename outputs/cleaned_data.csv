@@ -1,0 +1,1196 @@
+EmployeeID,Department,Role,Age,TenureYears,AnnualSalary,OverTime,MonthsSincePromotion,SatisfactionScore,WorkLifeBalance,PerformanceRating,Status
+EMP00052,Sales,Sales Manager,28,6.1,852000.0,No,19,5.0,2.9,2.5,Active
+EMP00523,Sales,Sales Executive,38,5.2,757000.0,Yes,43,4.0,3.2,2.1,Active
+EMP00180,HR,Recruiter,37,2.9,722000.0,No,58,3.3,3.6,2.8,Active
+EMP01173,Engineering,Engineering Manager,29,6.0,1328000.0,No,1,3.4,3.2,3.2,Active
+EMP00938,Sales,Sales Executive,29,3.6,783000.0,No,25,3.4,2.6,2.5,Resigned
+EMP01152,Customer Support,Support Lead,38,6.1,731000.0,Yes,51,3.1,3.2,3.3,Active
+EMP00206,Engineering,Engineering Manager,33,4.6,1102000.0,No,41,3.1,2.2,4.4,Active
+EMP01090,Operations,Process Lead,43,7.2,832000.0,Yes,12,5.0,3.0,4.1,Active
+EMP00657,Customer Support,Support Manager,26,1.3,533000.0,Yes,35,2.0,1.1,3.3,Active
+EMP01114,Customer Support,Support Associate,35,1.4,509000.0,Yes,24,2.7,2.2,2.9,Active
+EMP00035,Operations,Ops Manager,46,2.5,700000.0,Yes,44,3.4,2.1,3.1,Active
+EMP00736,Finance,Financial Analyst,21,3.6,800000.0,No,45,2.4,3.2,2.5,Active
+EMP00064,HR,Recruiter,37,3.5,738000.0,No,22,3.8,4.1,3.6,Active
+EMP00642,HR,HR Generalist,46,2.0,657000.0,Yes,14,3.0,2.9,3.6,Active
+EMP00762,Sales,Sales Manager,33,4.7,764000.0,No,45,1.9,2.8,2.4,Resigned
+EMP00928,Customer Support,Support Associate,34,6.7,635000.0,No,25,3.8,1.7,4.0,Active
+EMP00455,Sales,Sales Manager,25,2.5,791000.0,No,5,3.4,3.1,5.0,Active
+EMP00356,Operations,Process Lead,28,3.3,683000.0,No,11,3.6,3.4,5.0,Active
+EMP01073,Operations,Process Lead,46,0.8,676000.0,No,8,3.6,3.4,4.1,Active
+EMP00446,Finance,Accountant,30,0.8,819000.0,No,49,5.0,4.0,2.8,Active
+EMP00351,Finance,Financial Analyst,36,0.3,787000.0,Yes,33,2.0,3.1,3.7,Active
+EMP00173,Engineering,Engineering Manager,23,4.0,1063000.0,No,21,3.4,4.5,2.4,Active
+EMP00514,Engineering,Software Engineer,33,1.7,1166000.0,Yes,42,4.1,2.5,3.0,Active
+EMP00628,Sales,Sales Manager,30,3.7,721000.0,No,56,4.9,1.6,3.0,Active
+EMP00952,Engineering,Engineering Manager,35,3.2,1214000.0,No,24,1.9,4.2,3.3,Active
+EMP00791,Sales,Sales Executive,22,0.1,596000.0,No,50,4.4,2.3,3.1,Active
+EMP00373,Engineering,Software Engineer,38,4.5,1310000.0,No,27,3.6,4.7,4.0,Resigned
+EMP00254,Engineering,Senior Engineer,50,1.9,1195000.0,No,26,4.3,4.2,1.4,Active
+EMP01038,Engineering,Senior Engineer,41,0.8,1013000.0,No,58,3.0,3.1,1.9,Active
+EMP00632,HR,HR Generalist,34,2.8,576000.0,Yes,9,4.6,2.8,3.1,Resigned
+EMP00453,Finance,Financial Analyst,26,4.3,943000.0,No,19,2.8,1.7,3.9,Active
+EMP00545,Sales,Sales Manager,44,4.7,715000.0,No,54,3.8,3.1,4.0,Active
+EMP00526,Engineering,Software Engineer,37,1.2,1133000.0,No,36,2.4,3.8,1.6,Active
+EMP00190,Engineering,Senior Engineer,22,1.6,902000.0,No,47,4.3,2.9,2.8,Active
+EMP00102,Finance,Financial Analyst,41,2.8,931000.0,Yes,9,4.3,4.1,2.7,Resigned
+EMP00735,Sales,Sales Manager,35,1.4,634000.0,Yes,52,4.5,2.5,1.6,Active
+EMP00335,Sales,Account Manager,43,5.3,847000.0,No,49,5.0,3.1,3.4,Active
+EMP00997,Finance,Accountant,47,5.7,1140000.0,Yes,52,3.3,2.4,3.7,Active
+EMP00447,Customer Support,Support Manager,41,3.3,583000.0,No,12,2.8,4.2,3.5,Active
+EMP00171,Engineering,Engineering Manager,27,7.6,1536000.0,Yes,8,5.0,3.4,4.3,Active
+EMP00633,Sales,Account Manager,34,2.8,667000.0,No,49,2.3,3.5,3.4,Active
+EMP00370,Customer Support,Support Manager,43,3.5,543000.0,No,3,1.0,2.4,4.9,Active
+EMP00286,Engineering,Senior Engineer,36,5.3,1299000.0,No,55,3.5,1.7,2.1,Active
+EMP01061,Customer Support,Support Lead,29,2.5,585000.0,Yes,43,4.6,4.3,3.6,Active
+EMP00573,Operations,Ops Manager,26,9.6,966000.0,Yes,44,2.7,2.8,4.1,Active
+EMP00028,Sales,Account Manager,44,3.0,792000.0,No,35,4.5,3.1,4.5,Active
+EMP00427,Engineering,Senior Engineer,45,2.7,1018000.0,Yes,54,3.3,3.1,2.3,Active
+EMP01136,Engineering,Software Engineer,41,4.0,1037000.0,Yes,27,2.4,1.9,2.6,Resigned
+EMP00279,Customer Support,Support Lead,36,1.4,569000.0,Yes,30,4.5,2.8,4.5,Resigned
+EMP01110,Sales,Account Manager,39,3.6,735000.0,No,40,3.2,2.2,2.5,Active
+EMP00666,Finance,Accountant,42,3.1,1020000.0,Yes,60,3.3,2.3,2.3,Resigned
+EMP00962,Operations,Process Lead,30,1.0,656000.0,Yes,41,2.4,2.6,4.0,Active
+EMP00651,Engineering,Engineering Manager,21,1.4,1088000.0,No,1,4.3,3.6,2.8,Active
+EMP00681,Sales,Account Manager,39,1.1,764000.0,Yes,32,1.4,1.6,2.6,Active
+EMP00499,Engineering,Engineering Manager,27,5.2,1352000.0,Yes,16,4.9,2.8,3.4,Active
+EMP00114,Operations,Process Lead,36,4.5,788000.0,Yes,31,3.7,2.2,3.4,Active
+EMP00129,Sales,Sales Executive,21,1.5,612000.0,No,15,4.2,3.3,3.0,Resigned
+EMP00653,Finance,Finance Manager,29,6.2,980000.0,No,60,3.3,4.1,1.8,Active
+EMP00674,Finance,Finance Manager,33,3.5,951000.0,Yes,10,3.8,2.3,2.6,Active
+EMP00047,Engineering,Engineering Manager,51,4.8,1151000.0,No,48,2.3,2.9,2.3,Active
+EMP01149,Operations,Ops Analyst,39,2.2,738000.0,No,23,4.0,4.6,3.2,Active
+EMP01188,Customer Support,Support Manager,34,1.9,474000.0,Yes,36,1.9,2.7,2.6,Resigned
+EMP00397,HR,HR Manager,21,1.3,617000.0,No,12,4.5,3.6,3.2,Active
+EMP00510,Sales,Account Manager,43,2.8,861000.0,Yes,23,3.3,2.9,4.4,Active
+EMP00798,Sales,Sales Manager,44,3.8,882000.0,No,23,2.7,3.0,3.5,Active
+EMP00456,Sales,Sales Executive,21,1.7,661000.0,No,3,4.4,3.9,2.6,Active
+EMP00987,Engineering,Engineering Manager,28,7.1,1331000.0,Yes,32,3.4,2.5,4.5,Active
+EMP00644,Engineering,Senior Engineer,41,3.5,1075000.0,Yes,13,4.6,2.7,3.0,Active
+EMP00661,Engineering,Software Engineer,26,1.1,1159000.0,Yes,54,3.1,2.5,3.1,Active
+EMP00725,Sales,Account Manager,44,0.4,636000.0,Yes,20,5.0,2.8,3.4,Active
+EMP00925,Sales,Account Manager,31,10.6,1071000.0,Yes,17,3.5,2.7,3.0,Active
+EMP00621,HR,Recruiter,39,3.3,617000.0,Yes,57,3.0,3.3,2.8,Active
+EMP00221,Engineering,Engineering Manager,32,5.2,1162000.0,Yes,40,5.0,3.8,2.9,Resigned
+EMP00409,Sales,Sales Manager,32,4.7,925000.0,Yes,56,4.5,1.8,3.4,Active
+EMP00922,Customer Support,Support Associate,43,2.4,540000.0,No,26,2.4,3.9,2.4,Active
+EMP00285,Operations,Ops Manager,38,0.3,661000.0,No,58,2.7,4.0,4.4,Active
+EMP00879,Finance,Finance Manager,37,7.2,1227000.0,No,1,2.6,2.7,3.6,Active
+EMP00368,Finance,Finance Manager,37,5.6,905000.0,No,60,3.3,4.0,3.4,Active
+EMP01174,HR,HR Generalist,34,2.5,694000.0,No,10,3.2,3.0,3.1,Active
+EMP00431,Customer Support,Support Manager,51,3.0,599000.0,No,3,4.7,4.0,3.0,Active
+EMP00759,Sales,Sales Manager,26,1.2,600000.0,No,45,4.2,3.1,2.4,Active
+EMP00061,Finance,Accountant,30,7.7,981000.0,No,59,2.9,2.2,3.8,Active
+EMP00229,Finance,Accountant,21,3.4,1015000.0,Yes,27,2.9,1.4,2.0,Resigned
+EMP00826,Sales,Sales Manager,23,6.2,859000.0,No,4,3.0,3.1,4.1,Active
+EMP00362,Sales,Account Manager,21,2.7,708000.0,Yes,21,3.0,3.1,4.7,Active
+EMP00650,Sales,Sales Manager,25,5.2,963000.0,No,54,1.5,4.4,3.7,Active
+EMP00542,Operations,Process Lead,36,8.4,915000.0,No,16,3.8,2.6,3.2,Active
+EMP01178,Engineering,Engineering Manager,33,7.5,1537000.0,Yes,34,3.0,2.2,4.1,Active
+EMP01105,Sales,Sales Executive,38,3.7,910000.0,No,34,3.8,1.7,2.9,Active
+EMP00111,Operations,Ops Analyst,22,2.4,675000.0,No,9,3.2,3.5,2.5,Active
+EMP00529,HR,HR Generalist,43,13.3,806000.0,No,12,1.9,1.8,3.0,Active
+EMP00627,HR,HR Generalist,29,0.8,655000.0,No,7,3.1,2.3,3.2,Active
+EMP00464,Engineering,Senior Engineer,34,1.4,1183000.0,No,16,3.0,4.4,4.0,Active
+EMP01169,HR,HR Manager,34,1.6,519000.0,No,54,3.2,1.5,4.3,Active
+EMP00290,Sales,Sales Manager,37,2.9,739000.0,No,57,3.4,3.8,4.3,Active
+EMP00010,Operations,Ops Analyst,45,9.0,943000.0,No,55,3.8,3.9,3.6,Active
+EMP00817,Customer Support,Support Associate,41,2.2,600000.0,No,45,3.8,4.3,2.6,Resigned
+EMP00054,Finance,Accountant,45,4.9,876000.0,No,13,2.7,3.4,3.6,Active
+EMP01015,Engineering,Senior Engineer,42,3.4,1090000.0,No,56,1.7,4.5,2.9,Active
+EMP00768,Sales,Sales Executive,34,2.1,766000.0,Yes,1,2.9,2.4,3.6,Active
+EMP00398,Engineering,Senior Engineer,31,4.1,1228000.0,No,37,2.9,3.2,3.6,Active
+EMP01125,Operations,Ops Analyst,48,1.0,692000.0,No,49,2.5,2.0,1.7,Resigned
+EMP00263,Engineering,Software Engineer,31,13.8,1403000.0,Yes,2,2.8,1.0,4.6,Active
+EMP00041,Operations,Ops Manager,39,3.0,663000.0,Yes,48,3.7,1.2,2.3,Active
+EMP00110,Customer Support,Support Associate,31,2.5,481000.0,No,10,4.2,3.9,2.6,Active
+EMP00610,Operations,Process Lead,23,8.6,773000.0,No,15,3.9,4.0,1.4,Active
+EMP00846,Customer Support,Support Manager,35,7.4,693000.0,No,5,2.4,1.8,3.0,Active
+EMP01065,Engineering,Senior Engineer,40,12.9,1490000.0,No,1,3.2,2.7,3.9,Active
+EMP01083,Customer Support,Support Manager,41,7.2,674000.0,Yes,36,3.3,2.8,2.6,Active
+EMP00084,Sales,Sales Executive,29,2.2,628000.0,No,37,3.1,2.7,3.7,Active
+EMP00565,Finance,Finance Manager,36,0.8,859000.0,No,3,4.7,3.4,3.8,Active
+EMP00867,Customer Support,Support Manager,27,4.5,572000.0,No,56,2.9,2.8,5.0,Active
+EMP00408,HR,HR Generalist,23,7.6,867000.0,No,44,2.7,3.7,2.7,Resigned
+EMP00099,Sales,Sales Executive,27,1.7,701000.0,No,20,4.1,4.0,2.3,Active
+EMP00634,Engineering,Software Engineer,36,2.7,1150000.0,Yes,42,1.1,3.5,2.6,Resigned
+EMP01190,Finance,Finance Manager,41,4.2,955000.0,Yes,41,3.2,3.2,2.8,Active
+EMP00375,Sales,Account Manager,47,2.5,746000.0,No,51,4.0,3.5,3.7,Active
+EMP00271,Sales,Sales Manager,33,4.3,939000.0,No,47,3.4,3.9,3.2,Active
+EMP00337,Sales,Account Manager,34,5.2,966000.0,No,32,1.7,3.8,3.4,Active
+EMP00998,Sales,Sales Manager,21,2.1,632000.0,No,53,2.8,3.9,3.6,Active
+EMP00152,Customer Support,Support Associate,48,5.8,553000.0,No,13,2.4,3.0,2.4,Active
+EMP00512,Customer Support,Support Associate,38,4.9,694000.0,Yes,41,3.2,1.7,2.6,Active
+EMP00929,Operations,Ops Manager,39,2.7,771000.0,No,16,3.4,2.7,3.8,Active
+EMP00620,Sales,Sales Manager,35,2.3,655000.0,No,49,3.4,2.8,3.0,Active
+EMP00339,Sales,Account Manager,21,4.4,723000.0,No,39,3.1,4.0,3.1,Active
+EMP00319,Engineering,Senior Engineer,30,1.4,1038000.0,No,16,4.1,5.0,2.9,Active
+EMP00232,Engineering,Engineering Manager,40,0.9,1043000.0,No,30,4.5,2.9,3.5,Active
+EMP00253,Operations,Process Lead,37,0.9,679000.0,No,47,3.0,3.8,3.2,Active
+EMP00858,Customer Support,Support Associate,21,1.0,464000.0,No,25,4.9,2.2,3.0,Active
+EMP01121,Finance,Finance Manager,27,0.8,828000.0,No,19,3.4,3.2,2.8,Resigned
+EMP00055,Finance,Finance Manager,40,3.6,1030000.0,Yes,47,3.1,2.5,3.3,Active
+EMP00380,Finance,Financial Analyst,40,3.6,798000.0,No,56,2.2,2.8,2.7,Active
+EMP00432,HR,HR Manager,33,6.8,796000.0,No,22,2.9,3.1,4.7,Active
+EMP00142,Operations,Process Lead,23,4.3,742000.0,No,24,2.2,2.1,3.3,Active
+EMP00811,Sales,Sales Manager,35,4.6,762000.0,Yes,31,1.0,2.8,3.6,Resigned
+EMP00098,Sales,Sales Manager,31,1.8,741000.0,No,7,3.6,4.2,2.9,Active
+EMP00757,Engineering,Engineering Manager,23,6.0,1127000.0,Yes,5,4.3,1.4,2.1,Active
+EMP00984,Operations,Process Lead,28,4.7,691000.0,Yes,11,2.8,3.1,4.2,Active
+EMP00572,Customer Support,Support Associate,42,10.2,660000.0,Yes,32,3.0,3.1,3.4,Active
+EMP00433,Finance,Financial Analyst,29,2.5,771000.0,No,25,3.9,2.0,3.5,Active
+EMP00524,Finance,Accountant,41,5.4,850000.0,Yes,42,1.9,3.6,2.6,Resigned
+EMP00013,Finance,Finance Manager,29,7.8,1078000.0,No,44,3.9,2.9,3.5,Active
+EMP00686,Engineering,Senior Engineer,28,4.0,1148000.0,No,44,3.0,2.9,2.8,Active
+EMP00818,Operations,Ops Manager,36,4.3,773000.0,No,19,2.5,4.3,4.0,Resigned
+EMP00147,Engineering,Engineering Manager,38,2.0,1195000.0,Yes,24,3.9,3.3,3.0,Active
+EMP00680,Engineering,Senior Engineer,21,1.8,1088000.0,Yes,4,2.8,3.5,4.0,Active
+EMP01135,Customer Support,Support Associate,44,5.6,666000.0,Yes,28,2.1,3.8,4.0,Resigned
+EMP00014,HR,Recruiter,45,3.2,690000.0,Yes,54,4.0,2.2,3.8,Active
+EMP00618,Engineering,Software Engineer,32,6.2,1110000.0,No,25,3.4,1.8,3.3,Active
+EMP00552,Sales,Account Manager,52,0.2,639000.0,No,56,3.0,2.6,3.0,Active
+EMP00889,Sales,Sales Executive,46,6.1,903000.0,No,32,3.1,2.8,2.4,Active
+EMP00699,Finance,Financial Analyst,27,4.9,834000.0,No,1,5.0,2.6,3.1,Active
+EMP00021,HR,HR Generalist,21,2.3,596000.0,No,35,3.6,2.8,3.1,Active
+EMP00896,Customer Support,Support Manager,39,5.0,666000.0,No,7,3.1,3.1,2.4,Active
+EMP00352,Sales,Sales Executive,50,5.1,729000.0,Yes,50,4.0,2.0,2.2,Resigned
+EMP00875,Finance,Financial Analyst,34,1.3,729000.0,No,45,3.0,2.8,3.5,Resigned
+EMP00307,Engineering,Engineering Manager,25,0.6,925000.0,No,38,3.1,3.4,2.8,Active
+EMP00825,HR,Recruiter,22,3.0,697000.0,No,56,2.7,3.8,2.8,Resigned
+EMP00400,Operations,Ops Manager,33,4.7,685000.0,Yes,37,3.2,2.6,3.6,Active
+EMP00205,Sales,Sales Manager,32,4.3,721000.0,No,6,3.1,4.1,3.5,Active
+EMP01171,Engineering,Engineering Manager,36,1.2,1067000.0,Yes,38,3.1,3.1,2.2,Resigned
+EMP00678,Operations,Process Lead,31,3.9,688000.0,Yes,24,3.7,1.6,2.2,Resigned
+EMP01195,Customer Support,Support Associate,42,4.3,596000.0,No,37,2.7,2.4,3.3,Active
+EMP00390,Customer Support,Support Manager,34,2.8,487000.0,Yes,42,4.4,2.6,3.4,Active
+EMP00881,Engineering,Software Engineer,42,5.7,1136000.0,No,43,2.8,3.4,2.6,Active
+EMP00504,Operations,Ops Manager,29,1.2,668000.0,No,34,2.9,4.1,3.4,Active
+EMP00535,Sales,Sales Manager,49,6.3,903000.0,No,15,2.5,4.7,2.2,Active
+EMP00273,Sales,Sales Manager,41,11.8,1029000.0,Yes,41,4.9,1.1,3.2,Active
+EMP00116,Customer Support,Support Manager,33,4.0,614000.0,No,51,3.6,3.3,3.2,Active
+EMP00208,Finance,Financial Analyst,21,0.5,888000.0,No,22,4.2,3.9,4.0,Active
+EMP00493,Finance,Accountant,36,3.8,940000.0,Yes,16,3.1,2.5,3.3,Resigned
+EMP00717,Operations,Ops Manager,45,3.8,734000.0,No,40,3.8,3.3,2.3,Active
+EMP01087,HR,Recruiter,21,3.1,602000.0,Yes,17,4.3,3.2,2.9,Active
+EMP00975,Engineering,Engineering Manager,29,7.5,1573000.0,Yes,44,2.2,3.0,3.2,Resigned
+EMP00141,Operations,Ops Analyst,35,1.2,717000.0,No,42,4.1,4.2,3.4,Active
+EMP00887,Engineering,Software Engineer,41,1.6,1133000.0,Yes,45,3.4,2.1,2.6,Resigned
+EMP00264,Sales,Account Manager,35,2.0,734000.0,No,25,2.4,4.3,2.7,Active
+EMP01159,Operations,Ops Analyst,44,4.1,679000.0,No,7,3.4,3.3,3.1,Active
+EMP00419,Sales,Sales Executive,49,0.8,758000.0,No,21,4.0,4.0,3.5,Active
+EMP00566,Finance,Accountant,40,1.9,841000.0,No,7,1.7,3.6,2.7,Active
+EMP00485,Sales,Account Manager,43,4.8,855000.0,No,42,4.8,1.6,2.8,Active
+EMP01170,Sales,Sales Executive,30,1.7,707000.0,No,37,2.2,3.4,2.1,Active
+EMP00557,Engineering,Software Engineer,42,3.8,1162000.0,No,30,2.4,3.7,4.0,Active
+EMP00748,Operations,Process Lead,47,2.9,622000.0,No,31,3.8,3.8,4.1,Active
+EMP00359,Operations,Ops Manager,41,5.3,703000.0,No,15,1.1,3.4,3.5,Active
+EMP00109,Sales,Account Manager,38,1.9,747000.0,Yes,30,3.1,4.5,2.5,Resigned
+EMP00672,Operations,Ops Manager,51,2.7,703000.0,No,11,1.6,3.7,2.7,Active
+EMP01115,Customer Support,Support Associate,47,3.9,506000.0,No,3,3.1,3.2,3.1,Active
+EMP01000,Engineering,Engineering Manager,31,6.3,1339000.0,No,41,3.3,3.5,2.6,Active
+EMP00100,Customer Support,Support Manager,46,2.5,587000.0,No,57,3.5,4.3,3.0,Active
+EMP00217,Sales,Sales Manager,31,3.2,810000.0,Yes,18,3.0,3.4,2.5,Resigned
+EMP00586,Finance,Accountant,27,3.6,878000.0,No,16,2.3,3.5,2.4,Active
+EMP00386,Customer Support,Support Associate,21,5.2,682000.0,Yes,45,3.3,2.1,3.2,Active
+EMP00421,Finance,Accountant,35,2.2,974000.0,No,23,2.8,4.5,3.0,Active
+EMP00413,Sales,Sales Executive,33,3.7,853000.0,No,14,3.5,5.0,3.4,Active
+EMP00707,HR,HR Manager,47,1.6,609000.0,Yes,26,4.0,3.0,2.6,Active
+EMP00942,Customer Support,Support Associate,32,3.0,530000.0,Yes,30,4.6,3.3,2.2,Active
+EMP00794,Sales,Sales Executive,31,2.9,686000.0,No,42,4.7,3.9,3.3,Active
+EMP00306,Operations,Ops Analyst,49,4.9,845000.0,No,33,2.9,1.8,2.6,Active
+EMP00914,Customer Support,Support Associate,40,5.3,686000.0,Yes,8,3.0,3.2,3.3,Active
+EMP00663,Sales,Account Manager,26,4.6,803000.0,No,2,2.4,3.0,2.4,Resigned
+EMP01166,Customer Support,Support Associate,25,1.7,471000.0,Yes,25,3.6,1.6,4.4,Active
+EMP00364,Sales,Sales Executive,40,4.5,740000.0,No,4,4.1,2.6,3.4,Active
+EMP00024,Customer Support,Support Manager,46,4.2,573000.0,No,24,2.3,3.5,1.7,Resigned
+EMP01039,Operations,Process Lead,40,3.2,763000.0,Yes,35,3.3,1.8,3.4,Active
+EMP00265,Customer Support,Support Associate,26,2.0,493000.0,No,36,3.8,4.4,1.6,Active
+EMP00756,Engineering,Engineering Manager,38,7.2,1498000.0,Yes,55,3.8,2.6,3.2,Resigned
+EMP01036,Finance,Accountant,29,5.5,1101000.0,No,15,3.2,3.2,3.3,Active
+EMP00187,Engineering,Senior Engineer,34,3.8,1035000.0,No,25,4.0,5.0,4.8,Active
+EMP00563,Customer Support,Support Manager,34,3.2,489000.0,Yes,59,2.9,4.8,3.8,Resigned
+EMP00863,HR,HR Manager,21,2.5,722000.0,Yes,13,4.2,2.7,3.7,Active
+EMP00948,Customer Support,Support Associate,37,4.4,647000.0,No,19,2.6,3.1,2.7,Active
+EMP00124,Engineering,Senior Engineer,37,9.3,1290000.0,No,10,3.5,4.0,2.9,Active
+EMP00639,HR,HR Generalist,23,1.3,667000.0,Yes,27,5.0,2.2,3.4,Active
+EMP00903,Sales,Account Manager,36,10.8,1019000.0,No,43,3.0,3.6,3.7,Active
+EMP01050,Engineering,Senior Engineer,42,3.8,1072000.0,No,46,3.1,4.1,3.5,Resigned
+EMP00769,Sales,Sales Manager,42,4.8,900000.0,No,28,3.0,4.5,3.0,Active
+EMP00587,Sales,Sales Manager,44,4.1,704000.0,No,43,4.0,2.8,2.8,Active
+EMP01138,Operations,Ops Analyst,21,5.5,684000.0,Yes,17,4.6,3.0,3.9,Active
+EMP01075,Customer Support,Support Associate,25,5.1,623000.0,No,38,3.9,4.0,2.0,Active
+EMP00148,Operations,Ops Manager,39,1.8,725000.0,No,59,3.1,5.0,2.3,Resigned
+EMP00934,HR,HR Manager,47,1.7,663000.0,No,44,2.7,3.9,3.5,Active
+EMP00494,Engineering,Engineering Manager,38,5.5,1133000.0,No,53,4.1,3.5,2.9,Active
+EMP00225,Engineering,Engineering Manager,44,1.7,939000.0,No,17,4.1,3.4,3.7,Active
+EMP00832,Operations,Ops Analyst,23,2.4,770000.0,No,13,2.5,3.2,2.6,Active
+EMP00071,Sales,Sales Manager,33,6.2,945000.0,No,9,3.0,4.7,2.3,Active
+EMP00692,Customer Support,Support Lead,24,2.4,549000.0,Yes,13,4.7,2.7,2.5,Resigned
+EMP00281,Sales,Sales Executive,34,2.0,798000.0,Yes,55,2.8,2.9,3.2,Resigned
+EMP00172,Operations,Process Lead,35,1.5,629000.0,No,21,2.2,2.1,3.5,Active
+EMP00749,HR,HR Manager,43,1.5,596000.0,Yes,35,3.0,3.0,3.0,Active
+EMP00169,Engineering,Senior Engineer,38,1.6,1121000.0,No,32,3.4,2.8,2.9,Active
+EMP00892,Customer Support,Support Lead,51,4.6,559000.0,No,48,5.0,3.4,3.9,Active
+EMP00284,Engineering,Engineering Manager,45,7.9,1238000.0,No,46,2.7,3.7,3.6,Active
+EMP01052,Sales,Sales Executive,32,7.6,905000.0,No,48,3.7,3.5,3.1,Active
+EMP00126,Operations,Ops Analyst,37,3.4,759000.0,Yes,32,2.8,2.9,2.6,Resigned
+EMP01165,Sales,Sales Manager,30,4.5,871000.0,No,54,2.5,2.9,2.9,Active
+EMP01196,Sales,Sales Executive,35,4.6,828000.0,Yes,15,2.3,1.8,4.8,Resigned
+EMP00165,Operations,Ops Manager,38,3.3,722000.0,Yes,17,2.9,1.2,2.3,Active
+EMP01009,Finance,Accountant,27,4.7,878000.0,No,18,3.6,1.5,2.8,Active
+EMP01153,Sales,Sales Manager,48,1.5,631000.0,Yes,31,4.9,3.0,3.3,Active
+EMP00532,Finance,Finance Manager,43,2.8,746000.0,Yes,54,2.0,1.8,1.9,Active
+EMP00841,Sales,Sales Executive,44,3.6,855000.0,No,18,2.6,2.9,3.7,Active
+EMP00043,Finance,Financial Analyst,24,0.3,729000.0,No,5,3.3,2.9,3.7,Resigned
+EMP00782,Customer Support,Support Associate,37,4.3,681000.0,No,43,1.9,3.0,3.9,Active
+EMP00919,Engineering,Software Engineer,27,3.3,1127000.0,Yes,19,2.7,1.8,2.5,Resigned
+EMP00689,HR,HR Generalist,35,1.3,586000.0,No,5,4.2,3.8,3.3,Active
+EMP00579,Customer Support,Support Associate,30,2.3,521000.0,No,57,5.0,1.7,2.4,Active
+EMP00133,Operations,Process Lead,36,2.0,729000.0,No,49,3.3,3.8,2.7,Active
+EMP01014,Customer Support,Support Associate,45,0.1,442000.0,No,57,4.1,3.4,2.4,Active
+EMP00468,Customer Support,Support Associate,35,0.1,460000.0,No,21,1.9,3.2,2.2,Active
+EMP00039,Engineering,Engineering Manager,31,2.4,1143000.0,No,13,4.3,4.2,3.2,Active
+EMP00964,Sales,Sales Manager,21,1.5,723000.0,No,27,3.3,3.6,3.0,Active
+EMP01006,Engineering,Senior Engineer,42,9.3,1467000.0,Yes,39,2.5,3.1,4.8,Active
+EMP01042,Finance,Financial Analyst,45,1.0,733000.0,Yes,1,3.1,1.8,3.3,Active
+EMP00509,Operations,Ops Analyst,30,2.1,725000.0,Yes,56,3.0,2.1,2.1,Active
+EMP00167,HR,HR Manager,21,5.5,658000.0,Yes,21,4.8,5.0,3.8,Resigned
+EMP00541,Customer Support,Support Manager,28,3.6,572000.0,No,51,1.2,1.6,2.3,Active
+EMP00072,Engineering,Software Engineer,38,2.7,1066000.0,No,16,3.4,3.0,3.5,Active
+EMP00907,Operations,Ops Analyst,28,1.9,658000.0,Yes,26,4.5,3.8,2.5,Resigned
+EMP00906,Finance,Financial Analyst,27,3.5,814000.0,No,30,4.2,4.0,4.5,Active
+EMP01200,Finance,Accountant,44,1.5,733000.0,No,52,3.3,1.4,3.0,Active
+EMP00993,HR,HR Manager,27,2.1,634000.0,No,18,3.9,1.6,3.0,Active
+EMP00927,Sales,Sales Executive,32,4.7,835000.0,No,54,1.4,2.7,3.3,Resigned
+EMP00005,Sales,Account Manager,38,2.7,667000.0,No,42,3.4,2.3,2.8,Active
+EMP00340,Customer Support,Support Lead,26,2.1,587000.0,Yes,60,3.3,3.9,3.2,Active
+EMP00695,Customer Support,Support Manager,32,4.9,555000.0,No,37,2.4,4.2,4.0,Active
+EMP00715,HR,Recruiter,35,6.4,763000.0,No,59,3.6,3.3,2.6,Active
+EMP00378,Operations,Process Lead,42,6.3,742000.0,Yes,28,5.0,3.1,3.4,Active
+EMP00448,Finance,Accountant,29,2.4,749000.0,No,50,4.2,1.0,2.1,Active
+EMP00652,Customer Support,Support Associate,25,0.5,504000.0,No,7,3.2,3.2,2.3,Active
+EMP01053,Engineering,Senior Engineer,53,6.9,1189000.0,Yes,17,2.9,1.3,4.0,Active
+EMP00501,Finance,Accountant,35,2.6,935000.0,No,41,3.2,1.9,3.7,Active
+EMP00805,Sales,Sales Executive,41,9.8,1092000.0,No,20,4.1,2.7,4.1,Active
+EMP01077,Operations,Ops Manager,25,3.5,618000.0,No,18,3.5,4.7,3.4,Active
+EMP00095,Engineering,Senior Engineer,31,1.7,1062000.0,No,26,4.4,3.9,2.8,Active
+EMP00096,Finance,Financial Analyst,40,1.2,818000.0,No,16,3.0,4.1,2.8,Active
+EMP00309,Engineering,Engineering Manager,31,0.4,929000.0,Yes,27,3.1,3.1,3.1,Active
+EMP00747,Engineering,Senior Engineer,38,4.0,1231000.0,No,7,3.8,4.2,2.5,Active
+EMP00490,Operations,Ops Analyst,21,2.2,744000.0,No,38,4.5,3.2,3.2,Active
+EMP00603,Customer Support,Support Manager,37,1.8,494000.0,No,9,1.7,3.8,3.9,Active
+EMP00059,Sales,Account Manager,42,9.5,927000.0,No,6,3.4,3.1,2.9,Active
+EMP00066,Operations,Ops Analyst,36,1.5,581000.0,No,42,3.5,3.1,4.2,Active
+EMP00326,Finance,Accountant,41,3.2,786000.0,No,14,2.7,2.9,3.7,Active
+EMP00518,HR,HR Manager,42,0.4,498000.0,Yes,13,4.1,3.8,4.7,Active
+EMP00025,HR,Recruiter,32,2.1,682000.0,Yes,52,5.0,1.3,1.0,Active
+EMP01024,Operations,Ops Manager,21,2.3,591000.0,Yes,51,2.9,3.7,2.8,Active
+EMP00245,Finance,Accountant,42,6.3,905000.0,No,9,3.6,4.7,3.0,Active
+EMP00223,Finance,Financial Analyst,46,1.4,857000.0,No,35,3.9,5.0,3.3,Active
+EMP00604,Finance,Finance Manager,35,2.8,995000.0,No,59,4.1,5.0,3.5,Active
+EMP00106,Finance,Financial Analyst,30,5.2,903000.0,Yes,42,2.7,3.4,3.1,Active
+EMP01086,HR,HR Generalist,23,2.8,613000.0,No,10,2.0,4.5,3.0,Active
+EMP00131,Sales,Sales Manager,34,0.7,655000.0,No,41,2.4,2.8,3.8,Active
+EMP00154,Operations,Ops Analyst,39,2.3,607000.0,No,57,2.9,3.3,3.3,Active
+EMP01079,Finance,Accountant,39,7.9,1226000.0,No,20,4.0,3.9,3.4,Active
+EMP00973,Sales,Sales Executive,46,4.9,934000.0,No,40,3.2,4.2,3.9,Active
+EMP00871,HR,HR Generalist,36,4.2,731000.0,Yes,13,4.5,1.8,2.9,Active
+EMP00978,Engineering,Senior Engineer,30,4.9,1288000.0,No,59,4.7,2.4,1.9,Active
+EMP00076,Engineering,Senior Engineer,21,4.3,1357000.0,No,25,4.7,4.0,4.2,Active
+EMP01133,Sales,Sales Executive,33,2.6,685000.0,Yes,31,3.6,4.0,3.0,Resigned
+EMP01070,Engineering,Engineering Manager,34,2.3,1230000.0,No,52,2.8,4.4,3.6,Active
+EMP00923,Finance,Finance Manager,33,1.8,734000.0,No,25,3.0,4.4,1.9,Resigned
+EMP00317,Engineering,Senior Engineer,21,3.7,1226000.0,No,52,4.1,3.4,4.5,Active
+EMP00985,Sales,Sales Manager,29,2.2,813000.0,Yes,41,3.6,2.7,3.7,Active
+EMP00743,Customer Support,Support Lead,26,8.7,715000.0,No,4,2.7,3.9,2.8,Active
+EMP00200,Engineering,Senior Engineer,51,4.6,1254000.0,No,36,3.1,3.6,4.0,Active
+EMP00862,Finance,Accountant,38,2.5,746000.0,No,10,4.4,4.7,3.3,Active
+EMP00135,Operations,Process Lead,34,2.2,704000.0,No,31,4.6,3.0,3.0,Active
+EMP00327,HR,HR Generalist,27,3.0,722000.0,Yes,23,4.3,2.5,5.0,Active
+EMP00260,Operations,Ops Analyst,38,4.2,807000.0,No,51,3.5,3.0,3.0,Active
+EMP00972,Sales,Sales Executive,35,3.7,786000.0,No,33,1.9,2.8,2.6,Resigned
+EMP00004,Finance,Accountant,34,1.2,762000.0,No,9,2.2,3.6,3.3,Active
+EMP00849,Sales,Sales Executive,21,6.3,898000.0,No,11,3.6,3.1,2.3,Active
+EMP00211,Finance,Finance Manager,46,5.0,1052000.0,No,36,3.4,3.2,4.1,Active
+EMP00197,Operations,Ops Manager,34,4.9,870000.0,No,25,2.1,3.3,3.2,Active
+EMP00560,Operations,Ops Manager,33,4.1,666000.0,No,49,4.7,2.6,2.0,Active
+EMP00537,Operations,Process Lead,31,1.2,623000.0,No,45,4.1,5.0,3.0,Active
+EMP00592,Operations,Ops Manager,33,4.4,690000.0,No,23,3.3,5.0,2.2,Active
+EMP00027,Operations,Ops Analyst,41,0.4,577000.0,Yes,57,4.9,1.0,4.8,Active
+EMP01089,Operations,Ops Manager,28,1.8,584000.0,No,31,3.5,2.6,3.7,Active
+EMP00902,Engineering,Software Engineer,35,0.8,1073000.0,No,11,1.0,4.2,3.6,Active
+EMP01130,Customer Support,Support Associate,27,3.2,553000.0,No,17,2.6,2.4,2.1,Active
+EMP00595,Sales,Sales Manager,41,3.8,781000.0,No,41,3.4,2.4,4.1,Active
+EMP00062,Operations,Ops Analyst,26,3.2,612000.0,No,11,3.7,3.9,3.7,Active
+EMP00723,Sales,Account Manager,37,6.0,968000.0,No,24,4.0,3.5,3.7,Active
+EMP00267,Engineering,Software Engineer,38,10.1,1615000.0,No,54,2.5,3.8,4.3,Resigned
+EMP00983,HR,HR Manager,36,1.6,666000.0,No,37,3.4,2.9,3.6,Active
+EMP00682,Sales,Sales Manager,41,6.2,794000.0,Yes,24,2.5,2.6,3.9,Resigned
+EMP00638,Finance,Financial Analyst,41,7.7,1039000.0,No,57,2.6,3.4,3.5,Active
+EMP00780,Customer Support,Support Associate,29,2.2,607000.0,Yes,21,2.9,3.9,2.4,Active
+EMP00598,Finance,Accountant,37,10.6,1067000.0,Yes,39,3.3,3.6,2.3,Active
+EMP00574,HR,HR Manager,50,5.7,646000.0,Yes,38,3.0,1.3,3.0,Active
+EMP00458,Operations,Process Lead,31,2.5,646000.0,Yes,47,4.7,2.6,2.1,Resigned
+EMP00926,Engineering,Engineering Manager,41,1.3,990000.0,Yes,13,5.0,3.6,2.2,Active
+EMP00886,Engineering,Senior Engineer,21,8.5,1546000.0,No,49,2.2,3.8,3.6,Active
+EMP00009,Sales,Account Manager,52,3.2,692000.0,No,56,3.8,1.0,3.3,Active
+EMP00978,Engineering,Senior Engineer,30,4.9,1288000.0,No,59,4.7,2.4,1.9,Active
+EMP01043,Finance,Accountant,37,1.0,876000.0,No,13,2.8,2.1,2.4,Resigned
+EMP00649,Finance,Financial Analyst,21,3.5,772000.0,Yes,55,1.9,3.6,3.7,Resigned
+EMP00658,Engineering,Software Engineer,45,5.9,1271000.0,No,41,5.0,4.0,2.2,Active
+EMP00820,Engineering,Senior Engineer,32,0.2,889000.0,Yes,26,2.9,3.9,4.1,Resigned
+EMP01117,Sales,Sales Executive,35,3.4,816000.0,No,42,4.1,4.1,4.1,Active
+EMP00075,Sales,Sales Executive,43,4.1,863000.0,No,1,3.3,2.3,3.6,Active
+EMP00564,Finance,Financial Analyst,34,5.3,894000.0,Yes,52,4.7,3.4,3.7,Active
+EMP01019,Sales,Sales Executive,33,2.1,735000.0,No,4,4.9,3.9,1.4,Active
+EMP00058,Operations,Process Lead,33,0.4,551000.0,No,13,3.6,2.2,3.6,Active
+EMP01027,Customer Support,Support Lead,26,1.3,459000.0,No,40,3.0,1.4,3.1,Active
+EMP00479,Finance,Finance Manager,26,0.9,897000.0,Yes,54,3.8,3.5,3.1,Active
+EMP00298,HR,Recruiter,40,1.4,655000.0,Yes,43,4.4,3.0,3.4,Resigned
+EMP00955,Customer Support,Support Manager,32,3.7,596000.0,Yes,19,3.4,2.2,2.7,Active
+EMP00218,Sales,Sales Executive,28,6.3,848000.0,No,20,4.8,2.8,4.4,Active
+EMP00713,HR,HR Generalist,28,2.1,631000.0,Yes,37,2.9,2.8,4.3,Active
+EMP00669,Engineering,Software Engineer,36,6.8,1286000.0,No,2,4.9,1.4,1.7,Active
+EMP00345,HR,HR Generalist,25,1.6,520000.0,Yes,19,4.7,2.4,2.8,Active
+EMP00714,Customer Support,Support Manager,29,6.6,599000.0,Yes,57,3.8,5.0,3.6,Active
+EMP00007,HR,Recruiter,37,15.4,794000.0,No,26,2.7,3.0,3.4,Active
+EMP00940,Sales,Sales Manager,36,3.9,865000.0,No,26,3.2,3.1,3.2,Active
+EMP00755,Finance,Financial Analyst,30,5.2,970000.0,Yes,24,3.3,3.8,4.0,Active
+EMP01040,Sales,Sales Manager,41,1.0,644000.0,No,36,2.7,4.2,2.1,Resigned
+EMP00703,Sales,Sales Executive,33,4.0,777000.0,Yes,3,1.9,2.6,3.3,Resigned
+EMP00869,Sales,Sales Executive,42,1.8,675000.0,Yes,34,3.6,3.3,3.3,Active
+EMP00958,Operations,Process Lead,30,2.8,750000.0,No,26,5.0,5.0,2.3,Active
+EMP00007,HR,Recruiter,37,15.4,794000.0,No,26,2.7,3.0,3.4,Active
+EMP00410,Customer Support,Support Associate,45,11.3,720000.0,No,8,2.9,1.8,3.6,Active
+EMP00123,Sales,Sales Executive,31,4.7,813000.0,Yes,13,4.5,4.4,2.8,Active
+EMP01049,Customer Support,Support Lead,32,2.2,605000.0,No,52,3.0,2.5,3.1,Active
+EMP00139,HR,Recruiter,60,4.8,695000.0,Yes,24,4.1,1.7,2.4,Active
+EMP00164,Sales,Account Manager,30,3.5,798000.0,No,57,3.8,2.3,2.8,Active
+EMP00734,Engineering,Software Engineer,43,1.0,1095000.0,Yes,26,3.9,2.3,3.5,Active
+EMP00549,HR,Recruiter,33,4.5,763000.0,No,33,2.1,3.3,3.5,Resigned
+EMP01072,Finance,Finance Manager,49,5.6,1033000.0,Yes,2,5.0,2.6,3.2,Active
+EMP00044,Engineering,Software Engineer,28,1.1,914000.0,No,34,3.6,3.8,3.0,Active
+EMP00779,HR,HR Generalist,27,2.9,614000.0,Yes,7,3.7,2.8,2.2,Active
+EMP01056,Finance,Finance Manager,27,1.6,869000.0,Yes,48,5.0,2.1,2.8,Active
+EMP00320,Customer Support,Support Associate,22,0.5,538000.0,No,59,2.9,2.1,4.2,Active
+EMP00796,Engineering,Software Engineer,36,4.3,1048000.0,No,41,2.7,2.1,3.1,Resigned
+EMP00452,Customer Support,Support Lead,28,3.9,531000.0,No,26,3.1,2.6,4.7,Active
+EMP00295,Customer Support,Support Manager,39,2.3,548000.0,No,24,4.1,2.1,2.8,Active
+EMP00588,Engineering,Engineering Manager,24,6.6,1341000.0,Yes,36,3.9,3.4,4.1,Active
+EMP00559,Operations,Ops Manager,34,2.3,640000.0,No,25,3.4,3.9,3.8,Active
+EMP01020,Operations,Ops Analyst,37,2.9,616000.0,Yes,6,4.0,2.2,3.0,Active
+EMP00507,Engineering,Senior Engineer,23,3.2,1016000.0,No,19,3.9,4.0,3.0,Active
+EMP00020,Finance,Accountant,28,2.4,938000.0,No,26,3.2,3.2,3.3,Active
+EMP00474,Sales,Sales Executive,35,1.1,659000.0,No,16,3.3,2.1,3.0,Active
+EMP00675,Operations,Ops Manager,45,4.5,693000.0,Yes,48,3.6,2.6,3.6,Active
+EMP00700,Engineering,Software Engineer,30,3.1,1244000.0,Yes,35,3.8,2.5,2.0,Active
+EMP01055,Engineering,Engineering Manager,32,2.1,1050000.0,No,24,2.9,4.2,2.6,Resigned
+EMP01101,Sales,Sales Executive,37,2.2,783000.0,Yes,3,2.0,4.0,2.1,Active
+EMP00138,Operations,Ops Manager,27,3.7,641000.0,No,55,4.0,4.0,2.7,Resigned
+EMP01122,Sales,Sales Executive,42,1.4,612000.0,No,27,2.4,2.2,3.4,Active
+EMP00527,Customer Support,Support Lead,32,2.7,627000.0,No,12,4.7,5.0,3.0,Active
+EMP00186,Finance,Accountant,39,3.6,855000.0,Yes,17,3.8,3.3,3.3,Active
+EMP00971,Engineering,Engineering Manager,35,4.2,1281000.0,No,1,2.5,4.8,3.3,Active
+EMP01140,Finance,Finance Manager,40,3.6,860000.0,No,49,2.6,3.6,2.4,Active
+EMP01157,Sales,Sales Manager,42,4.5,901000.0,Yes,18,5.0,1.0,3.8,Active
+EMP00873,Customer Support,Support Lead,28,1.6,551000.0,Yes,19,4.3,1.5,3.2,Resigned
+EMP01147,HR,Recruiter,27,1.0,600000.0,Yes,48,4.5,2.5,3.4,Active
+EMP00508,HR,HR Manager,33,2.9,708000.0,No,14,5.0,2.6,2.5,Active
+EMP00328,Operations,Ops Analyst,26,0.7,628000.0,No,27,3.4,2.9,2.7,Active
+EMP00318,Finance,Finance Manager,36,0.2,702000.0,Yes,8,2.4,2.6,3.8,Active
+EMP00838,Customer Support,Support Manager,24,0.6,531000.0,Yes,49,4.4,2.5,3.6,Active
+EMP01143,HR,HR Generalist,27,1.5,630000.0,No,50,2.6,1.8,2.7,Active
+EMP00722,Operations,Process Lead,36,6.8,842000.0,No,30,3.8,1.8,2.8,Active
+EMP00732,Sales,Account Manager,38,4.5,746000.0,No,23,2.5,3.8,3.8,Active
+EMP00800,Finance,Financial Analyst,38,0.7,831000.0,No,59,3.9,2.8,4.5,Active
+EMP00472,Operations,Process Lead,38,3.2,724000.0,No,36,3.7,3.3,4.2,Active
+EMP00484,Engineering,Software Engineer,57,7.5,1546000.0,No,32,2.0,3.7,1.1,Active
+EMP00786,Engineering,Engineering Manager,31,2.5,1190000.0,No,14,4.4,4.2,3.3,Active
+EMP00149,Operations,Ops Manager,21,0.7,556000.0,Yes,37,3.7,1.0,3.7,Active
+EMP00489,Operations,Ops Analyst,29,5.1,869000.0,No,14,4.6,4.8,2.8,Active
+EMP00999,Customer Support,Support Associate,30,4.1,614000.0,No,42,3.4,4.0,2.1,Active
+EMP00709,Operations,Process Lead,44,1.5,594000.0,No,56,3.2,2.9,3.9,Active
+EMP01184,Sales,Sales Executive,40,10.4,1139000.0,Yes,47,4.1,3.8,3.0,Active
+EMP01111,Sales,Sales Manager,28,3.7,868000.0,No,35,3.2,2.5,4.3,Active
+EMP00366,Engineering,Senior Engineer,21,6.8,1329000.0,No,16,4.8,3.9,3.0,Active
+EMP00913,Customer Support,Support Manager,37,7.8,740000.0,Yes,52,2.9,4.3,3.2,Active
+EMP00531,Finance,Financial Analyst,29,1.2,793000.0,No,59,3.0,2.7,2.5,Active
+EMP00821,Sales,Sales Manager,32,3.3,764000.0,Yes,59,3.4,2.4,3.5,Active
+EMP00816,Customer Support,Support Associate,33,5.0,565000.0,Yes,53,2.8,3.4,3.8,Resigned
+EMP00953,Engineering,Software Engineer,24,4.5,1284000.0,No,9,2.8,4.5,3.1,Active
+EMP00570,Operations,Ops Manager,44,9.9,1059000.0,No,55,3.6,4.9,4.4,Active
+EMP00233,Customer Support,Support Manager,28,1.3,562000.0,No,44,3.3,4.2,4.6,Active
+EMP00957,HR,HR Generalist,40,7.4,735000.0,No,34,2.1,3.7,4.6,Active
+EMP01185,Sales,Sales Manager,50,0.5,661000.0,No,48,3.4,2.7,2.9,Active
+EMP00813,Customer Support,Support Lead,30,4.0,660000.0,No,22,2.7,3.7,4.1,Active
+EMP00591,Customer Support,Support Lead,21,0.3,496000.0,No,60,4.6,3.0,2.6,Active
+EMP00159,Finance,Financial Analyst,33,4.0,974000.0,Yes,29,3.9,3.5,2.4,Active
+EMP00316,Engineering,Senior Engineer,30,1.4,924000.0,No,25,3.2,2.5,2.6,Active
+EMP00257,HR,HR Generalist,42,4.2,659000.0,No,57,3.6,4.3,4.3,Active
+EMP01029,Finance,Finance Manager,26,7.7,1098000.0,Yes,9,1.7,4.0,4.9,Resigned
+EMP00097,Engineering,Engineering Manager,32,1.0,873000.0,No,26,4.0,3.4,2.8,Active
+EMP01183,Sales,Sales Executive,31,0.4,744000.0,Yes,52,2.3,2.2,4.7,Resigned
+EMP00463,Customer Support,Support Manager,35,3.4,584000.0,No,18,3.4,4.2,3.0,Active
+EMP00385,Engineering,Engineering Manager,36,4.1,1016000.0,No,28,3.1,3.6,2.9,Active
+EMP01164,Sales,Sales Manager,36,7.9,939000.0,Yes,56,4.0,2.1,3.5,Active
+EMP00178,Customer Support,Support Lead,32,4.5,554000.0,No,14,3.5,2.0,3.0,Resigned
+EMP00475,Engineering,Senior Engineer,36,7.1,1423000.0,Yes,59,3.8,3.8,2.6,Active
+EMP00329,Finance,Accountant,39,1.2,798000.0,No,48,3.6,2.0,4.2,Active
+EMP00315,Engineering,Senior Engineer,24,3.7,1114000.0,Yes,27,4.6,1.5,3.2,Active
+EMP00416,Engineering,Software Engineer,32,3.5,1035000.0,No,21,3.7,2.5,3.0,Active
+EMP00358,HR,Recruiter,26,3.6,712000.0,No,28,3.9,3.9,2.6,Active
+EMP00348,Engineering,Engineering Manager,29,2.1,1074000.0,Yes,35,2.3,3.1,4.1,Active
+EMP00505,Operations,Ops Manager,29,1.7,586000.0,No,12,5.0,3.1,3.6,Active
+EMP00299,HR,HR Generalist,37,1.1,509000.0,Yes,35,3.4,1.4,2.6,Active
+EMP01144,HR,HR Manager,35,2.8,647000.0,No,11,3.8,1.2,4.0,Active
+EMP00789,HR,HR Generalist,38,4.1,640000.0,No,46,2.2,3.8,3.9,Resigned
+EMP00706,Operations,Ops Analyst,36,0.8,564000.0,No,50,3.1,3.2,2.8,Active
+EMP00961,Operations,Process Lead,21,2.6,673000.0,No,5,3.3,3.6,3.0,Resigned
+EMP00659,Operations,Ops Manager,37,1.7,631000.0,No,46,4.3,2.4,3.0,Active
+EMP00250,Operations,Ops Analyst,35,4.1,647000.0,No,1,3.1,2.6,3.2,Active
+EMP00844,Engineering,Senior Engineer,30,0.9,981000.0,Yes,39,3.5,2.0,4.2,Active
+EMP00016,Engineering,Senior Engineer,38,6.8,1504000.0,No,4,1.7,3.7,3.5,Active
+EMP01068,Finance,Financial Analyst,37,1.7,890000.0,No,25,4.2,2.0,2.6,Active
+EMP00160,HR,Recruiter,21,1.0,641000.0,No,52,2.7,2.6,3.7,Active
+EMP01094,Engineering,Engineering Manager,29,1.8,945000.0,No,58,2.6,4.3,3.2,Resigned
+EMP00611,Operations,Ops Manager,21,12.7,832000.0,Yes,5,3.9,2.3,2.1,Active
+EMP00361,Customer Support,Support Associate,38,6.3,689000.0,No,9,3.9,4.4,2.5,Active
+EMP00049,Finance,Finance Manager,43,6.1,1077000.0,No,16,1.3,3.8,2.8,Active
+EMP00203,Operations,Process Lead,29,2.4,786000.0,No,34,3.1,3.0,1.8,Active
+EMP00331,Finance,Finance Manager,33,1.2,774000.0,No,6,4.0,3.0,2.3,Active
+EMP00599,Customer Support,Support Lead,36,6.1,630000.0,Yes,18,3.6,1.0,3.5,Active
+EMP00511,Sales,Sales Executive,37,2.0,833000.0,Yes,25,2.3,3.5,4.4,Active
+EMP00113,Engineering,Engineering Manager,44,0.8,1038000.0,No,41,3.8,3.6,2.9,Active
+EMP00308,Finance,Financial Analyst,39,6.4,945000.0,Yes,46,3.5,3.2,4.3,Active
+EMP00790,Finance,Finance Manager,33,1.5,932000.0,Yes,46,3.2,2.4,3.2,Active
+EMP00423,Sales,Sales Executive,40,5.7,822000.0,Yes,57,2.3,2.8,2.7,Active
+EMP00417,Sales,Sales Manager,37,1.4,772000.0,Yes,15,3.1,3.2,2.7,Resigned
+EMP00411,Finance,Accountant,48,5.0,965000.0,No,45,4.7,3.5,2.2,Active
+EMP01080,Engineering,Engineering Manager,39,2.3,1086000.0,Yes,48,3.6,1.9,2.0,Active
+EMP00792,Engineering,Engineering Manager,44,7.0,1349000.0,No,8,3.0,2.6,4.3,Active
+EMP00856,Operations,Ops Analyst,41,5.0,747000.0,No,7,4.5,2.5,3.0,Active
+EMP00645,Finance,Financial Analyst,30,3.4,882000.0,No,37,4.3,4.2,4.5,Active
+EMP00396,Operations,Process Lead,30,8.9,1026000.0,Yes,51,3.4,3.7,2.8,Active
+EMP00668,Customer Support,Support Manager,28,1.5,501000.0,No,22,2.4,4.3,2.9,Active
+EMP00460,Finance,Accountant,46,1.2,876000.0,Yes,20,3.8,3.2,2.3,Active
+EMP00656,Engineering,Senior Engineer,21,5.1,1297000.0,Yes,32,3.3,2.7,2.4,Active
+EMP00128,Sales,Sales Manager,38,4.2,865000.0,No,1,3.7,3.8,1.5,Active
+EMP01057,Customer Support,Support Manager,37,0.8,514000.0,No,25,2.8,4.0,2.5,Active
+EMP01189,Sales,Account Manager,51,7.3,997000.0,No,25,4.0,4.2,3.0,Active
+EMP00774,Customer Support,Support Lead,43,2.3,479000.0,No,41,2.7,3.0,3.8,Active
+EMP00450,Finance,Accountant,23,7.7,1034000.0,Yes,16,3.4,3.3,2.4,Active
+EMP00238,HR,HR Manager,38,4.3,786000.0,No,58,4.7,1.6,2.2,Active
+EMP00168,HR,Recruiter,38,3.6,684000.0,No,52,3.6,4.4,1.9,Active
+EMP00783,Operations,Process Lead,30,0.6,698000.0,No,9,2.0,2.9,3.6,Active
+EMP00636,Sales,Sales Manager,49,2.2,769000.0,No,10,4.4,3.5,2.2,Resigned
+EMP00081,Finance,Accountant,43,1.0,778000.0,No,59,4.8,3.2,4.5,Active
+EMP00415,Sales,Sales Executive,43,7.6,964000.0,Yes,48,5.0,4.5,3.5,Active
+EMP00670,Engineering,Software Engineer,33,5.2,1221000.0,No,57,3.5,3.1,2.8,Active
+EMP00301,HR,HR Manager,34,2.2,625000.0,No,6,2.2,3.5,2.9,Active
+EMP00643,Sales,Sales Executive,30,2.3,708000.0,No,33,4.4,3.7,3.1,Active
+EMP00325,Customer Support,Support Manager,50,8.2,727000.0,Yes,59,4.7,3.5,3.6,Resigned
+EMP00936,Sales,Sales Executive,41,2.2,659000.0,Yes,51,1.7,1.1,2.6,Resigned
+EMP00216,Finance,Finance Manager,35,1.9,931000.0,Yes,43,3.4,1.0,3.0,Resigned
+EMP00622,Operations,Ops Analyst,34,1.9,697000.0,No,19,3.1,4.4,3.3,Active
+EMP00031,HR,HR Generalist,37,2.4,716000.0,No,5,3.3,3.9,2.2,Active
+EMP00753,Engineering,Software Engineer,38,0.3,838000.0,Yes,9,3.4,2.0,2.6,Active
+EMP00243,Engineering,Software Engineer,30,6.1,1399000.0,Yes,42,5.0,3.1,3.3,Active
+EMP00730,Operations,Process Lead,31,8.1,909000.0,No,17,2.1,3.5,3.6,Active
+EMP00641,Finance,Accountant,29,1.1,873000.0,Yes,9,3.1,5.0,3.0,Active
+EMP00979,Operations,Process Lead,21,2.2,582000.0,No,54,3.5,4.9,2.8,Active
+EMP01054,Sales,Account Manager,30,3.1,874000.0,Yes,26,3.1,2.2,3.9,Active
+EMP00210,Operations,Process Lead,39,10.5,845000.0,No,1,1.6,1.7,3.1,Active
+EMP00548,Sales,Account Manager,39,8.1,986000.0,No,3,5.0,4.2,3.4,Active
+EMP00436,Sales,Account Manager,21,1.3,651000.0,No,42,2.0,2.1,3.5,Active
+EMP01141,Engineering,Engineering Manager,22,1.7,1097000.0,No,7,2.9,2.7,2.2,Active
+EMP01109,Customer Support,Support Associate,48,1.7,488000.0,No,14,2.5,3.9,3.2,Active
+EMP00569,Engineering,Engineering Manager,21,4.4,1045000.0,No,51,2.5,1.0,4.2,Active
+EMP00404,Sales,Sales Executive,34,7.5,878000.0,No,16,2.2,3.0,3.8,Active
+EMP01113,Finance,Financial Analyst,54,2.3,726000.0,Yes,2,3.8,3.0,3.5,Active
+EMP00363,Sales,Account Manager,27,1.9,641000.0,Yes,45,3.4,1.6,3.9,Active
+EMP00272,Sales,Sales Manager,24,2.4,854000.0,No,13,4.9,1.8,1.7,Active
+EMP00467,Finance,Financial Analyst,28,2.6,934000.0,Yes,41,2.1,1.0,3.8,Active
+EMP01084,Customer Support,Support Associate,27,2.9,615000.0,No,6,3.1,1.7,2.8,Active
+EMP00778,Sales,Sales Executive,39,2.4,848000.0,Yes,1,3.0,3.9,3.5,Active
+EMP00278,Operations,Process Lead,30,3.4,791000.0,Yes,33,3.3,4.4,2.5,Active
+EMP01082,Customer Support,Support Associate,40,6.9,718000.0,No,57,3.7,3.0,3.6,Active
+EMP01168,Operations,Ops Analyst,40,6.5,932000.0,Yes,54,2.8,3.1,3.8,Active
+EMP00698,Operations,Ops Analyst,38,1.0,596000.0,No,46,4.5,4.9,3.5,Active
+EMP00443,Finance,Finance Manager,41,1.3,798000.0,No,56,1.4,2.9,2.9,Active
+EMP00300,Finance,Financial Analyst,36,2.7,938000.0,No,53,5.0,3.0,2.9,Active
+EMP00376,Sales,Sales Executive,40,9.9,894000.0,No,32,4.7,2.7,2.9,Active
+EMP00664,Sales,Sales Executive,34,1.9,708000.0,No,58,3.7,3.2,2.7,Resigned
+EMP01181,HR,HR Manager,36,2.5,623000.0,No,56,2.5,2.9,2.6,Active
+EMP00612,Finance,Accountant,40,1.5,784000.0,Yes,4,3.2,4.7,3.0,Active
+EMP00473,Sales,Sales Manager,31,3.4,859000.0,No,56,3.5,2.4,3.0,Active
+EMP00852,Sales,Sales Manager,46,6.5,941000.0,Yes,42,2.8,3.6,3.2,Active
+EMP01102,Engineering,Senior Engineer,26,1.5,960000.0,No,56,4.8,3.7,3.7,Active
+EMP00389,Sales,Sales Executive,39,4.3,825000.0,Yes,14,4.0,4.5,3.4,Active
+EMP00023,Customer Support,Support Associate,51,2.1,544000.0,No,41,4.2,2.1,2.4,Active
+EMP00701,Engineering,Senior Engineer,36,0.5,841000.0,No,31,2.8,4.8,2.5,Active
+EMP00916,Customer Support,Support Manager,43,2.9,483000.0,Yes,46,3.6,1.7,2.3,Resigned
+EMP00424,Sales,Sales Manager,36,8.7,915000.0,No,35,4.0,1.9,2.0,Active
+EMP00991,Finance,Financial Analyst,34,2.7,980000.0,Yes,59,4.3,2.5,3.2,Resigned
+EMP00744,Sales,Account Manager,23,2.3,708000.0,No,36,2.2,2.6,4.7,Active
+EMP00956,Customer Support,Support Lead,38,4.1,662000.0,No,35,4.7,4.2,2.9,Active
+EMP00917,Sales,Account Manager,53,1.5,627000.0,No,33,2.6,4.2,4.1,Active
+EMP00143,Customer Support,Support Manager,35,1.1,526000.0,No,9,5.0,3.8,4.1,Active
+EMP00051,Sales,Sales Manager,40,1.1,782000.0,Yes,4,5.0,2.6,4.0,Active
+EMP00721,Operations,Ops Manager,36,4.2,843000.0,No,52,2.7,2.2,3.7,Active
+EMP00761,Finance,Financial Analyst,31,4.5,941000.0,Yes,59,4.8,3.1,1.8,Active
+EMP00082,Engineering,Engineering Manager,30,1.2,1107000.0,No,40,3.8,3.4,3.0,Active
+EMP00483,Operations,Ops Manager,29,2.5,786000.0,No,14,3.1,4.5,3.5,Active
+EMP00322,Operations,Process Lead,24,1.6,618000.0,Yes,26,3.2,1.4,4.2,Active
+EMP01128,Finance,Financial Analyst,49,11.6,1273000.0,No,2,4.0,3.3,3.0,Active
+EMP00719,Finance,Financial Analyst,31,2.9,868000.0,No,50,2.4,3.7,3.5,Active
+EMP01161,Sales,Sales Executive,36,1.5,680000.0,Yes,21,2.1,2.3,3.0,Active
+EMP00067,Operations,Ops Analyst,38,0.3,699000.0,No,13,4.6,2.9,3.2,Active
+EMP00960,Operations,Ops Manager,33,1.5,726000.0,No,34,1.6,3.9,3.3,Resigned
+EMP00937,Customer Support,Support Lead,33,3.1,602000.0,Yes,26,4.1,1.5,1.2,Active
+EMP00772,Operations,Process Lead,34,1.7,615000.0,No,25,3.0,1.0,3.3,Active
+EMP00418,HR,HR Manager,44,2.6,696000.0,No,24,4.3,4.1,3.2,Active
+EMP01167,HR,Recruiter,46,1.5,588000.0,No,1,4.4,3.9,4.6,Active
+EMP00065,Finance,Accountant,35,4.4,899000.0,No,5,3.0,1.5,3.7,Active
+EMP00944,Engineering,Senior Engineer,31,3.8,1087000.0,Yes,34,4.5,2.7,2.3,Active
+EMP00935,HR,HR Generalist,38,0.7,526000.0,No,12,4.0,4.8,4.6,Resigned
+EMP01103,HR,HR Generalist,41,1.1,588000.0,No,29,2.0,3.2,3.2,Active
+EMP00492,Finance,Accountant,38,1.0,704000.0,No,59,3.8,4.3,2.9,Active
+EMP00733,Sales,Sales Manager,27,5.1,731000.0,No,51,2.9,4.0,3.8,Active
+EMP00836,Operations,Ops Manager,27,2.1,704000.0,Yes,35,1.8,4.1,4.1,Active
+EMP01022,HR,HR Manager,28,5.8,851000.0,No,17,1.7,3.4,2.2,Active
+EMP00596,Engineering,Senior Engineer,28,3.1,1284000.0,No,21,2.1,3.1,3.5,Active
+EMP01012,Operations,Process Lead,37,1.6,647000.0,No,50,3.4,2.2,1.9,Active
+EMP00297,Customer Support,Support Associate,32,6.4,705000.0,No,54,3.3,1.6,3.7,Active
+EMP00420,Customer Support,Support Manager,42,5.4,549000.0,Yes,44,4.6,2.4,2.6,Active
+EMP00439,HR,HR Generalist,43,12.7,845000.0,No,59,1.5,3.2,2.7,Active
+EMP00262,HR,HR Manager,36,6.6,854000.0,No,11,2.5,3.7,2.7,Active
+EMP00726,Sales,Sales Manager,41,1.8,628000.0,No,59,4.7,4.0,2.9,Active
+EMP00282,Sales,Sales Executive,48,15.1,1099000.0,Yes,24,4.0,3.6,3.4,Active
+EMP00859,Engineering,Senior Engineer,25,2.4,1104000.0,No,25,3.8,4.8,3.6,Active
+EMP00883,Customer Support,Support Manager,33,3.4,547000.0,No,25,4.2,4.0,5.0,Active
+EMP00189,HR,HR Manager,45,14.7,973000.0,No,49,3.4,3.7,4.0,Active
+EMP00930,Finance,Finance Manager,32,0.9,808000.0,No,39,4.1,2.6,3.1,Resigned
+EMP00252,Customer Support,Support Manager,39,3.3,646000.0,Yes,52,3.3,4.5,3.3,Active
+EMP00784,Finance,Financial Analyst,30,5.1,1124000.0,Yes,24,2.3,3.2,3.8,Active
+EMP01123,HR,HR Manager,44,1.7,675000.0,Yes,14,2.2,3.6,3.8,Active
+EMP00515,Engineering,Senior Engineer,39,5.9,1417000.0,No,34,3.8,3.7,4.1,Active
+EMP00619,Sales,Account Manager,32,5.1,858000.0,Yes,48,4.0,1.5,3.7,Active
+EMP00488,Engineering,Software Engineer,49,2.0,1165000.0,No,54,3.5,2.7,2.9,Resigned
+EMP00274,Operations,Ops Analyst,40,4.1,830000.0,No,43,1.8,3.2,3.6,Active
+EMP00996,Operations,Process Lead,53,5.7,694000.0,No,43,3.7,2.7,2.4,Active
+EMP01096,Engineering,Senior Engineer,36,3.6,1019000.0,No,54,2.9,3.5,2.7,Active
+EMP00449,Sales,Sales Executive,26,1.7,752000.0,Yes,49,3.4,4.3,3.3,Active
+EMP00412,Finance,Financial Analyst,36,1.5,697000.0,Yes,57,4.7,2.2,2.8,Active
+EMP00888,Sales,Sales Executive,29,1.6,639000.0,No,12,1.7,3.8,3.9,Resigned
+EMP00751,Engineering,Engineering Manager,27,2.2,1200000.0,No,39,2.7,5.0,4.2,Active
+EMP00970,Sales,Sales Executive,47,1.4,672000.0,No,4,3.2,2.1,3.2,Active
+EMP00986,Customer Support,Support Associate,21,5.6,547000.0,Yes,36,1.9,2.3,4.0,Active
+EMP00150,Sales,Sales Executive,50,3.7,853000.0,Yes,47,4.1,2.3,3.3,Active
+EMP00219,Customer Support,Support Lead,24,2.1,606000.0,Yes,35,3.1,1.1,3.6,Active
+EMP00240,Sales,Sales Manager,44,2.9,870000.0,No,36,3.0,1.8,3.2,Active
+EMP00752,Engineering,Software Engineer,48,1.1,903000.0,No,11,3.3,4.0,3.6,Active
+EMP00193,Sales,Account Manager,49,2.9,663000.0,No,25,4.1,4.8,2.7,Resigned
+EMP00192,Engineering,Senior Engineer,25,2.2,945000.0,No,43,4.7,3.2,3.2,Resigned
+EMP01091,Engineering,Software Engineer,44,4.4,1027000.0,Yes,31,2.5,2.6,3.2,Active
+EMP00705,Engineering,Engineering Manager,33,4.5,1115000.0,No,46,2.5,1.8,3.4,Active
+EMP00738,Engineering,Senior Engineer,36,0.8,1134000.0,No,56,3.5,4.4,2.3,Active
+EMP00624,Operations,Ops Analyst,33,8.0,825000.0,No,48,4.2,3.8,3.7,Active
+EMP00977,Operations,Ops Manager,39,3.6,676000.0,No,53,1.8,2.6,3.2,Resigned
+EMP00741,Sales,Account Manager,42,5.9,968000.0,Yes,32,5.0,2.6,2.7,Resigned
+EMP00583,Sales,Sales Manager,47,1.6,737000.0,No,10,2.9,2.5,2.1,Active
+EMP01131,Customer Support,Support Lead,26,2.9,483000.0,No,24,3.0,4.9,3.3,Active
+EMP00324,Operations,Ops Manager,28,0.4,643000.0,Yes,33,3.6,2.4,2.6,Active
+EMP00968,Sales,Sales Executive,35,4.8,818000.0,No,43,3.1,2.9,3.1,Active
+EMP00894,Sales,Sales Executive,44,0.9,690000.0,No,41,3.6,1.9,3.3,Active
+EMP00688,Customer Support,Support Associate,52,3.6,522000.0,Yes,51,3.4,2.0,3.4,Active
+EMP00438,Operations,Process Lead,56,2.0,706000.0,No,37,2.7,3.6,2.8,Active
+EMP00807,Finance,Finance Manager,37,2.9,889000.0,No,11,3.1,4.3,3.3,Active
+EMP00877,Engineering,Software Engineer,31,0.7,923000.0,Yes,12,4.8,4.4,4.4,Active
+EMP00342,Customer Support,Support Associate,33,0.4,545000.0,No,13,3.0,1.8,4.0,Active
+EMP00003,Customer Support,Support Manager,53,1.5,518000.0,Yes,10,3.4,3.7,3.2,Active
+EMP00230,Sales,Sales Executive,50,11.5,1003000.0,Yes,15,3.7,5.0,3.0,Active
+EMP00740,Engineering,Senior Engineer,32,2.9,1075000.0,No,20,4.2,3.3,3.7,Active
+EMP00683,Sales,Sales Executive,42,10.3,945000.0,Yes,8,2.4,2.7,2.9,Active
+EMP00077,Engineering,Senior Engineer,45,6.1,1324000.0,No,53,2.7,1.9,2.1,Active
+EMP01126,Operations,Ops Analyst,36,4.6,711000.0,No,25,3.0,3.1,3.7,Resigned
+EMP00372,Engineering,Software Engineer,29,3.0,1028000.0,No,52,2.2,2.5,3.4,Active
+EMP00181,Customer Support,Support Lead,41,11.6,779000.0,No,60,3.1,1.5,2.0,Active
+EMP00745,Operations,Process Lead,43,1.1,719000.0,No,27,3.1,3.0,2.6,Active
+EMP00578,Operations,Process Lead,27,3.7,676000.0,Yes,27,3.8,2.2,3.1,Active
+EMP00770,Finance,Accountant,44,3.3,780000.0,No,42,2.4,4.9,3.5,Active
+EMP00795,Sales,Sales Manager,30,3.5,839000.0,No,26,3.8,4.4,3.5,Active
+EMP01172,Finance,Finance Manager,43,5.1,1093000.0,Yes,32,5.0,3.6,3.0,Active
+EMP01035,Engineering,Software Engineer,29,2.8,1029000.0,No,34,3.5,2.1,3.8,Active
+EMP00870,Sales,Sales Manager,38,3.9,793000.0,No,50,3.3,3.5,3.6,Active
+EMP00590,Sales,Account Manager,36,2.3,660000.0,No,19,4.2,4.3,3.0,Active
+EMP01045,Sales,Sales Manager,38,3.8,717000.0,No,28,3.8,3.8,3.3,Active
+EMP00854,Customer Support,Support Lead,44,5.9,578000.0,No,50,2.7,1.6,4.1,Resigned
+EMP01028,Engineering,Engineering Manager,31,2.6,1127000.0,No,59,4.2,3.4,4.1,Active
+EMP00931,Engineering,Senior Engineer,35,7.3,1364000.0,Yes,33,4.0,2.1,1.9,Active
+EMP00038,Operations,Process Lead,49,3.2,741000.0,No,1,1.8,2.8,3.0,Active
+EMP00354,Operations,Ops Manager,35,3.5,777000.0,Yes,57,3.1,2.8,2.4,Active
+EMP01118,HR,HR Manager,42,8.0,834000.0,Yes,32,2.3,1.4,3.0,Active
+EMP00237,Operations,Ops Manager,36,0.8,569000.0,No,20,4.3,3.5,3.4,Active
+EMP00500,Operations,Ops Analyst,48,4.5,844000.0,No,21,2.7,4.6,2.2,Active
+EMP00554,Customer Support,Support Lead,32,4.0,578000.0,Yes,23,4.8,3.0,2.8,Active
+EMP00056,HR,Recruiter,36,1.9,566000.0,No,14,4.2,4.4,3.5,Active
+EMP00303,Operations,Ops Analyst,37,3.1,750000.0,Yes,10,2.5,1.2,3.4,Active
+EMP00287,Sales,Sales Executive,32,2.6,756000.0,No,46,3.2,1.7,3.5,Active
+EMP00994,Sales,Sales Executive,51,3.8,889000.0,No,12,3.3,3.8,2.8,Active
+EMP00220,Engineering,Engineering Manager,35,4.7,1144000.0,No,38,3.4,3.2,3.4,Resigned
+EMP00665,Engineering,Engineering Manager,43,6.2,1274000.0,No,11,2.2,3.2,2.5,Active
+EMP00388,Customer Support,Support Associate,43,10.6,847000.0,No,44,4.1,3.8,2.8,Active
+EMP00771,Engineering,Senior Engineer,29,5.5,1366000.0,No,48,2.9,2.6,3.4,Active
+EMP00391,Finance,Finance Manager,47,0.3,840000.0,No,30,3.1,3.3,4.0,Active
+EMP00353,Operations,Ops Manager,25,9.5,983000.0,Yes,54,4.0,2.9,3.5,Active
+EMP00194,HR,HR Generalist,41,1.4,642000.0,Yes,33,3.4,2.2,3.1,Active
+EMP00236,HR,HR Generalist,46,6.9,677000.0,No,44,3.2,2.2,3.0,Active
+EMP01032,Finance,Finance Manager,29,0.8,726000.0,No,34,3.0,2.9,4.4,Active
+EMP00481,Engineering,Software Engineer,31,2.0,939000.0,No,36,4.9,3.6,2.8,Resigned
+EMP00568,Sales,Sales Executive,26,3.0,734000.0,No,56,3.3,2.3,3.1,Resigned
+EMP00117,HR,HR Manager,29,2.8,688000.0,Yes,49,4.5,3.1,3.7,Resigned
+EMP00982,HR,HR Manager,47,2.0,646000.0,No,31,4.1,4.5,4.5,Active
+EMP00654,Engineering,Senior Engineer,21,1.1,1034000.0,No,56,3.2,2.5,2.8,Active
+EMP01011,Finance,Financial Analyst,39,2.9,1004000.0,Yes,18,2.9,3.0,4.5,Resigned
+EMP01129,Finance,Financial Analyst,40,1.7,899000.0,No,10,2.7,2.6,3.1,Active
+EMP00802,Engineering,Engineering Manager,22,4.7,1344000.0,No,54,3.6,2.0,2.8,Active
+EMP00814,Operations,Process Lead,38,1.6,581000.0,Yes,56,3.8,2.7,3.2,Active
+EMP00121,Operations,Ops Manager,45,6.4,811000.0,No,24,3.5,3.5,2.6,Resigned
+EMP00857,Finance,Financial Analyst,29,3.2,876000.0,Yes,6,3.1,2.8,2.4,Active
+EMP01041,Sales,Sales Manager,21,2.1,812000.0,No,11,3.4,4.0,2.1,Active
+EMP01154,Sales,Sales Manager,43,2.1,809000.0,No,57,3.8,3.5,2.0,Active
+EMP00063,Operations,Ops Manager,29,3.7,733000.0,Yes,44,2.5,3.1,3.4,Active
+EMP00697,HR,HR Generalist,39,1.8,590000.0,No,40,2.4,1.1,3.0,Active
+EMP00454,Sales,Sales Executive,38,4.2,768000.0,No,34,4.7,3.3,3.1,Active
+EMP00516,Sales,Account Manager,40,1.2,774000.0,Yes,59,3.2,2.7,2.3,Active
+EMP00571,Engineering,Senior Engineer,36,0.2,873000.0,No,9,2.2,4.7,3.8,Active
+EMP00224,Customer Support,Support Manager,34,3.0,634000.0,No,16,4.0,2.5,3.5,Active
+EMP00614,Customer Support,Support Manager,44,2.3,520000.0,No,52,3.9,2.4,1.9,Active
+EMP00222,Operations,Ops Manager,31,7.1,955000.0,No,12,3.2,2.2,3.2,Active
+EMP00704,Customer Support,Support Lead,37,0.7,515000.0,No,6,4.8,2.2,2.0,Active
+EMP00831,Finance,Finance Manager,24,1.7,919000.0,No,46,3.3,3.7,2.4,Active
+EMP00466,Finance,Financial Analyst,36,6.7,963000.0,Yes,18,3.2,2.5,3.4,Active
+EMP00053,HR,HR Generalist,46,3.4,583000.0,No,9,3.4,1.0,3.3,Active
+EMP01116,Sales,Sales Manager,30,4.9,945000.0,Yes,31,3.2,3.7,2.2,Active
+EMP00486,Engineering,Software Engineer,44,0.5,942000.0,No,35,4.3,2.8,2.4,Active
+EMP01163,HR,Recruiter,21,0.2,558000.0,Yes,33,1.9,3.7,3.0,Active
+EMP00965,Customer Support,Support Associate,35,2.5,488000.0,No,22,3.2,3.8,3.8,Active
+EMP00156,Finance,Financial Analyst,36,3.1,942000.0,No,57,2.2,3.1,2.7,Active
+EMP00963,Sales,Sales Executive,43,1.4,809000.0,No,7,3.4,3.1,3.0,Active
+EMP00601,Operations,Process Lead,45,3.3,629000.0,No,43,1.6,2.1,2.8,Active
+EMP00921,Sales,Sales Executive,47,1.6,693000.0,No,20,2.7,3.4,3.0,Active
+EMP00249,Engineering,Engineering Manager,23,4.6,1118000.0,No,28,2.5,4.8,4.3,Resigned
+EMP00442,Sales,Sales Manager,35,1.8,711000.0,No,39,3.4,4.4,2.2,Resigned
+EMP01106,HR,HR Manager,27,2.3,556000.0,Yes,40,2.9,3.9,3.4,Resigned
+EMP01119,Engineering,Engineering Manager,38,2.3,984000.0,No,46,5.0,4.8,2.3,Active
+EMP00543,HR,HR Manager,32,3.3,728000.0,No,58,4.7,3.8,2.6,Active
+EMP00702,Engineering,Software Engineer,30,3.4,1230000.0,No,23,1.1,3.2,3.9,Active
+EMP00118,Finance,Accountant,52,11.6,1297000.0,No,6,3.3,3.2,3.6,Active
+EMP00758,Customer Support,Support Manager,42,6.2,718000.0,Yes,21,2.8,3.1,2.0,Active
+EMP00629,Operations,Ops Analyst,35,4.5,690000.0,Yes,13,4.3,3.1,2.0,Active
+EMP01182,Sales,Sales Manager,50,2.2,638000.0,No,2,3.4,2.2,3.3,Active
+EMP00967,Customer Support,Support Lead,28,2.4,597000.0,Yes,5,3.3,3.0,4.2,Active
+EMP00292,Sales,Account Manager,49,3.4,807000.0,No,36,3.5,3.8,3.0,Active
+EMP01063,Engineering,Engineering Manager,41,1.2,1063000.0,Yes,41,4.6,3.3,3.1,Resigned
+EMP00382,Customer Support,Support Manager,37,1.4,534000.0,No,12,3.1,2.4,4.1,Resigned
+EMP00908,Sales,Sales Executive,25,7.3,851000.0,No,23,2.1,3.2,3.5,Active
+EMP00954,Sales,Sales Manager,30,2.1,681000.0,No,59,3.9,3.7,2.5,Active
+EMP00201,HR,HR Manager,37,1.6,652000.0,No,19,2.1,3.1,3.3,Resigned
+EMP00597,Finance,Financial Analyst,26,7.6,1249000.0,Yes,51,3.9,1.2,1.4,Active
+EMP01026,Engineering,Engineering Manager,23,3.6,1041000.0,No,40,3.5,4.9,2.8,Active
+EMP01160,HR,Recruiter,37,4.5,771000.0,No,43,3.2,2.6,3.9,Active
+EMP00900,Operations,Process Lead,27,2.9,644000.0,No,10,2.6,4.5,2.8,Active
+EMP00506,HR,HR Manager,26,6.2,655000.0,Yes,14,3.8,3.1,4.7,Active
+EMP00349,Operations,Ops Manager,46,3.8,749000.0,No,47,3.5,3.0,4.4,Active
+EMP00969,Operations,Ops Manager,24,3.2,661000.0,No,26,4.4,3.0,3.2,Active
+EMP00341,Sales,Sales Executive,38,6.0,1015000.0,No,37,3.9,3.1,3.4,Active
+EMP00616,Finance,Accountant,37,0.6,735000.0,No,35,4.2,2.6,3.4,Active
+EMP00155,Sales,Sales Manager,27,0.4,608000.0,No,40,3.5,3.4,3.3,Active
+EMP01127,Operations,Ops Analyst,32,1.6,583000.0,Yes,48,2.5,5.0,3.1,Resigned
+EMP00799,Finance,Finance Manager,29,2.4,819000.0,No,7,3.8,4.0,3.2,Active
+EMP00078,Finance,Financial Analyst,46,0.7,733000.0,No,18,3.2,3.8,3.9,Active
+EMP00288,Engineering,Senior Engineer,56,8.0,1578000.0,No,43,3.3,3.2,3.6,Active
+EMP00323,Engineering,Software Engineer,42,4.7,1157000.0,Yes,12,4.7,2.4,4.2,Active
+EMP00861,HR,Recruiter,29,6.0,834000.0,No,29,3.1,3.2,3.3,Active
+EMP00901,Operations,Ops Manager,30,3.5,621000.0,No,49,4.4,3.4,2.4,Active
+EMP00834,Finance,Financial Analyst,38,3.2,881000.0,No,42,3.9,4.1,4.5,Active
+EMP00083,HR,HR Generalist,42,5.0,733000.0,No,42,4.6,3.8,3.3,Active
+EMP00830,Engineering,Engineering Manager,40,0.9,1066000.0,Yes,53,3.1,2.1,3.3,Resigned
+EMP00465,Operations,Ops Analyst,27,1.1,730000.0,No,21,4.3,4.3,2.8,Active
+EMP00884,Operations,Ops Analyst,32,2.7,621000.0,No,53,2.9,4.1,4.0,Active
+EMP00793,Engineering,Engineering Manager,21,1.2,1025000.0,Yes,28,3.4,2.5,3.2,Active
+EMP01194,Customer Support,Support Lead,35,1.2,456000.0,No,35,1.6,2.7,4.0,Active
+EMP00833,Engineering,Engineering Manager,51,10.4,1694000.0,No,52,1.7,2.1,4.2,Resigned
+EMP00334,Customer Support,Support Associate,35,1.3,528000.0,Yes,1,4.2,2.5,2.5,Active
+EMP00011,Engineering,Senior Engineer,42,3.7,1141000.0,No,47,1.2,3.4,3.5,Active
+EMP00739,Engineering,Senior Engineer,43,3.5,1190000.0,No,48,3.2,1.2,3.8,Active
+EMP00471,Engineering,Software Engineer,42,1.1,1013000.0,Yes,39,2.4,2.1,3.6,Resigned
+EMP00033,Engineering,Software Engineer,34,4.8,1260000.0,Yes,18,4.8,3.1,2.4,Resigned
+EMP00819,Finance,Finance Manager,27,0.7,759000.0,No,47,3.8,2.2,4.0,Active
+EMP00414,Customer Support,Support Manager,42,6.1,617000.0,No,35,2.1,5.0,2.6,Active
+EMP00581,Operations,Process Lead,59,6.2,716000.0,No,20,2.9,3.2,3.6,Resigned
+EMP00383,HR,HR Manager,32,0.6,573000.0,No,45,3.9,2.6,2.9,Resigned
+EMP00864,Operations,Process Lead,21,4.7,816000.0,No,34,2.4,3.7,3.2,Resigned
+EMP00797,Sales,Sales Executive,39,3.1,816000.0,No,39,3.5,2.8,2.6,Active
+EMP01156,Sales,Account Manager,40,1.5,754000.0,No,4,3.5,4.2,3.3,Active
+EMP00878,Engineering,Software Engineer,37,8.3,1264000.0,No,2,2.7,2.9,3.8,Active
+EMP01191,Operations,Ops Analyst,36,0.9,582000.0,No,21,5.0,3.4,3.2,Active
+EMP00379,Engineering,Senior Engineer,26,6.5,1456000.0,Yes,14,3.6,1.3,4.2,Resigned
+EMP00090,Operations,Ops Manager,23,0.3,606000.0,Yes,51,2.8,4.1,2.9,Active
+EMP00829,Customer Support,Support Manager,37,2.3,489000.0,Yes,30,3.2,2.2,4.5,Active
+EMP00602,HR,HR Manager,27,1.5,578000.0,Yes,26,3.0,2.4,2.4,Active
+EMP00214,HR,Recruiter,25,2.6,710000.0,No,46,2.9,4.5,3.7,Active
+EMP00333,Finance,Finance Manager,29,3.2,833000.0,Yes,46,2.7,3.2,3.2,Active
+EMP00134,Engineering,Software Engineer,34,2.0,1024000.0,No,51,2.5,3.3,2.9,Active
+EMP00347,Customer Support,Support Associate,37,4.8,633000.0,No,39,2.3,3.8,4.0,Active
+EMP00899,Sales,Account Manager,30,3.9,838000.0,No,2,3.1,3.0,2.2,Active
+EMP00008,HR,HR Manager,29,2.3,568000.0,No,53,2.9,2.9,3.6,Active
+EMP00882,Finance,Finance Manager,28,5.5,1035000.0,No,55,3.2,3.4,4.2,Active
+EMP00321,Customer Support,Support Lead,45,6.4,698000.0,Yes,2,3.3,2.6,2.8,Active
+EMP01066,Customer Support,Support Manager,60,0.9,525000.0,No,20,3.2,3.0,2.8,Resigned
+EMP00188,Sales,Sales Executive,34,2.8,850000.0,Yes,2,3.0,2.2,3.2,Active
+EMP00635,Sales,Sales Executive,21,2.0,752000.0,Yes,10,3.3,3.4,3.2,Resigned
+EMP00553,Sales,Sales Manager,21,1.9,649000.0,No,59,2.3,3.7,4.1,Active
+EMP00305,Customer Support,Support Associate,29,0.7,504000.0,Yes,12,2.9,1.3,3.9,Resigned
+EMP00032,Customer Support,Support Lead,40,5.2,639000.0,No,12,2.0,5.0,2.3,Active
+EMP00876,Customer Support,Support Manager,33,4.0,663000.0,No,9,3.3,5.0,2.0,Active
+EMP00685,Finance,Accountant,36,3.6,787000.0,No,49,1.0,5.0,2.2,Active
+EMP01088,HR,HR Manager,40,1.6,561000.0,No,59,2.6,2.7,2.3,Active
+EMP00241,HR,HR Generalist,40,1.2,508000.0,No,1,5.0,2.6,3.2,Active
+EMP00068,Engineering,Engineering Manager,29,1.8,1108000.0,No,31,3.2,4.2,3.3,Active
+EMP00175,Sales,Sales Manager,29,4.3,798000.0,No,30,3.5,3.2,4.3,Active
+EMP00767,Sales,Sales Manager,38,5.0,772000.0,No,45,4.4,4.3,3.1,Resigned
+EMP01193,Customer Support,Support Manager,30,3.8,674000.0,No,18,2.4,5.0,2.6,Active
+EMP00246,Customer Support,Support Associate,35,0.2,502000.0,No,34,3.1,4.0,4.0,Active
+EMP00057,Operations,Process Lead,36,1.0,667000.0,No,3,2.9,3.3,2.3,Active
+EMP00631,Customer Support,Support Manager,32,4.3,548000.0,No,25,4.6,3.2,4.0,Active
+EMP00584,Engineering,Engineering Manager,46,7.0,1392000.0,Yes,59,3.2,1.6,4.5,Active
+EMP01047,Sales,Sales Executive,32,2.0,805000.0,Yes,27,3.5,3.4,2.6,Resigned
+EMP00146,Engineering,Senior Engineer,43,3.1,1026000.0,No,56,2.5,4.0,3.1,Active
+EMP00091,Sales,Account Manager,25,0.5,676000.0,No,49,3.8,2.9,2.6,Resigned
+EMP01199,Engineering,Software Engineer,43,3.9,1210000.0,No,31,4.2,2.8,3.6,Active
+EMP00393,Operations,Process Lead,39,5.4,708000.0,No,46,2.2,2.8,4.3,Active
+EMP00893,Engineering,Software Engineer,33,5.0,1051000.0,No,7,2.4,4.0,3.2,Active
+EMP00311,Operations,Ops Analyst,27,1.4,689000.0,No,23,1.0,3.3,3.1,Active
+EMP00360,Operations,Ops Manager,44,5.2,715000.0,No,7,3.2,1.5,2.8,Resigned
+EMP00094,Engineering,Senior Engineer,38,3.6,1297000.0,No,22,3.0,3.3,3.2,Active
+EMP01112,Operations,Ops Manager,39,7.7,818000.0,No,31,4.0,4.7,2.4,Active
+EMP01046,Engineering,Engineering Manager,35,3.0,1081000.0,No,53,3.1,3.5,3.3,Active
+EMP00377,Customer Support,Support Lead,38,2.8,520000.0,No,21,3.4,3.1,2.3,Active
+EMP00244,Operations,Ops Manager,27,3.8,793000.0,No,22,3.4,3.1,3.8,Active
+EMP01099,Customer Support,Support Associate,51,5.1,553000.0,No,43,1.8,4.1,3.2,Resigned
+EMP00088,Operations,Ops Analyst,43,1.5,637000.0,Yes,4,3.8,2.3,4.5,Active
+EMP00215,Finance,Financial Analyst,37,2.5,940000.0,No,11,2.6,2.6,3.4,Active
+EMP00445,Engineering,Senior Engineer,37,1.6,1019000.0,No,2,3.4,4.2,4.0,Active
+EMP00174,Customer Support,Support Lead,28,5.7,660000.0,No,9,3.2,3.1,2.9,Active
+EMP00426,HR,HR Manager,26,3.5,676000.0,Yes,43,3.7,3.1,2.9,Active
+EMP01062,Finance,Finance Manager,45,13.0,1212000.0,Yes,46,2.8,1.6,2.7,Active
+EMP00119,Operations,Ops Analyst,33,1.7,574000.0,No,24,3.9,4.1,2.8,Active
+EMP00120,Finance,Finance Manager,31,3.6,858000.0,No,3,3.4,1.0,3.9,Active
+EMP01034,Customer Support,Support Lead,39,3.2,575000.0,No,48,2.4,3.5,4.3,Active
+EMP01095,Operations,Process Lead,21,0.6,665000.0,Yes,18,4.2,1.7,2.4,Resigned
+EMP00001,HR,HR Generalist,39,12.0,775000.0,Yes,57,4.0,2.5,2.7,Active
+EMP00395,Sales,Sales Executive,38,3.1,763000.0,Yes,58,2.3,2.9,3.1,Resigned
+EMP00402,Customer Support,Support Lead,36,4.0,525000.0,No,18,3.0,2.2,3.8,Active
+EMP00405,Customer Support,Support Associate,40,5.9,604000.0,No,55,2.9,2.7,3.2,Active
+EMP00880,Operations,Process Lead,27,4.2,684000.0,No,4,3.9,1.8,2.0,Active
+EMP00891,Engineering,Senior Engineer,34,2.5,981000.0,No,39,4.9,3.6,2.3,Active
+EMP00163,Engineering,Engineering Manager,30,1.8,1009000.0,No,49,3.9,4.3,1.9,Active
+EMP00115,Sales,Sales Executive,39,5.8,748000.0,No,35,3.1,3.5,4.6,Active
+EMP00671,Sales,Account Manager,34,5.1,731000.0,No,22,3.6,2.9,3.8,Resigned
+EMP00151,HR,Recruiter,25,2.3,611000.0,Yes,46,2.9,3.5,3.7,Active
+EMP00842,HR,HR Generalist,31,2.5,712000.0,No,12,3.5,4.9,2.7,Active
+EMP00981,Customer Support,Support Manager,25,8.2,665000.0,Yes,26,2.5,3.7,3.4,Active
+EMP00562,Engineering,Senior Engineer,33,1.0,871000.0,No,41,2.9,3.4,1.6,Active
+EMP00369,Engineering,Senior Engineer,28,1.8,1120000.0,Yes,27,3.2,1.1,1.0,Resigned
+EMP00544,Customer Support,Support Associate,36,1.4,477000.0,No,46,4.5,3.2,2.9,Active
+EMP00478,Finance,Finance Manager,30,2.6,835000.0,No,50,3.1,4.2,3.0,Active
+EMP01151,Sales,Account Manager,38,3.2,736000.0,No,42,3.9,5.0,3.3,Active
+EMP00533,Engineering,Software Engineer,28,3.6,1252000.0,No,42,3.9,3.4,3.3,Active
+EMP00626,Engineering,Senior Engineer,51,3.0,1036000.0,No,20,2.5,4.0,3.8,Resigned
+EMP01021,Customer Support,Support Lead,33,8.3,670000.0,No,14,3.7,2.0,3.1,Active
+EMP00513,Sales,Account Manager,29,2.4,662000.0,No,48,2.1,3.1,2.7,Active
+EMP00840,Operations,Ops Analyst,30,7.8,931000.0,Yes,29,3.0,1.8,3.6,Resigned
+EMP00073,Customer Support,Support Lead,21,1.0,482000.0,No,45,5.0,4.5,3.1,Active
+EMP00808,Sales,Sales Manager,30,0.6,715000.0,No,19,4.2,2.4,3.1,Active
+EMP00259,Sales,Sales Manager,28,5.9,841000.0,No,13,2.6,2.2,3.8,Resigned
+EMP00625,Customer Support,Support Lead,24,1.6,499000.0,No,21,2.1,3.2,2.1,Active
+EMP00827,Operations,Ops Manager,38,4.0,728000.0,No,47,4.0,4.1,3.6,Active
+EMP00235,Customer Support,Support Associate,27,1.4,548000.0,Yes,54,2.6,4.3,4.8,Active
+EMP00136,Sales,Sales Manager,40,5.1,780000.0,Yes,58,4.7,2.2,4.2,Active
+EMP00617,HR,Recruiter,41,2.0,569000.0,No,8,3.7,4.0,4.4,Active
+EMP00517,Engineering,Senior Engineer,34,3.3,1019000.0,Yes,54,3.3,2.2,1.8,Active
+EMP01071,Customer Support,Support Associate,47,4.8,678000.0,No,47,3.2,3.8,3.1,Active
+EMP00837,HR,Recruiter,30,1.9,696000.0,No,40,3.7,2.0,4.1,Active
+EMP00843,Operations,Process Lead,26,3.2,772000.0,Yes,6,3.6,2.8,3.7,Active
+EMP00803,Customer Support,Support Manager,49,1.3,588000.0,Yes,18,3.3,3.1,3.7,Resigned
+EMP00810,Customer Support,Support Associate,22,1.5,539000.0,Yes,13,3.3,3.8,2.6,Resigned
+EMP00593,Engineering,Software Engineer,40,3.4,1262000.0,No,44,2.6,2.8,4.0,Active
+EMP01078,Operations,Ops Manager,23,4.2,856000.0,No,7,4.2,4.5,2.9,Active
+EMP00502,Customer Support,Support Manager,34,14.2,815000.0,No,24,3.7,1.8,3.7,Active
+EMP00539,Sales,Sales Manager,37,5.9,818000.0,No,17,4.4,1.8,1.7,Active
+EMP00946,Engineering,Engineering Manager,38,1.1,1088000.0,No,7,4.0,3.5,2.9,Active
+EMP00729,Operations,Ops Manager,33,0.7,689000.0,Yes,54,5.0,2.0,4.1,Active
+EMP00582,Operations,Ops Analyst,39,7.7,776000.0,Yes,2,5.0,1.1,4.2,Active
+EMP00344,Operations,Process Lead,43,2.7,645000.0,No,37,3.3,3.6,2.2,Active
+EMP00976,Finance,Accountant,30,4.7,1074000.0,No,46,3.9,3.2,2.3,Active
+EMP00890,Finance,Financial Analyst,32,5.7,1101000.0,No,32,2.1,3.7,2.4,Active
+EMP00294,Sales,Account Manager,31,8.3,992000.0,No,35,3.8,3.3,3.3,Active
+EMP00365,Finance,Financial Analyst,36,6.0,918000.0,No,7,3.5,3.5,2.9,Active
+EMP00898,Sales,Sales Manager,42,5.0,771000.0,Yes,54,3.0,2.3,2.8,Active
+EMP00660,Engineering,Software Engineer,36,1.5,1097000.0,No,23,3.1,2.9,2.4,Active
+EMP00015,Operations,Ops Manager,27,1.2,601000.0,No,33,3.4,3.0,4.0,Active
+EMP00687,Operations,Ops Analyst,32,2.7,757000.0,Yes,37,4.7,3.7,2.6,Active
+EMP00087,Finance,Financial Analyst,37,1.0,894000.0,No,3,2.4,3.3,3.2,Active
+EMP00371,HR,Recruiter,29,3.3,622000.0,No,1,3.1,1.4,3.3,Active
+EMP00166,Engineering,Senior Engineer,28,3.2,1270000.0,No,6,3.7,3.3,3.0,Active
+EMP00132,Customer Support,Support Manager,34,0.1,526000.0,No,54,4.3,2.3,3.5,Active
+EMP00336,Finance,Financial Analyst,41,2.2,948000.0,No,15,2.9,1.8,3.9,Active
+EMP00060,Sales,Sales Executive,34,0.6,750000.0,No,38,2.9,1.4,3.4,Resigned
+EMP00710,Operations,Ops Analyst,38,1.0,624000.0,Yes,40,3.0,2.7,1.8,Active
+EMP01180,Sales,Sales Executive,31,2.7,750000.0,No,1,2.5,2.0,3.4,Active
+EMP00677,Customer Support,Support Associate,30,4.1,637000.0,No,30,3.6,3.6,3.5,Active
+EMP00355,Operations,Process Lead,38,2.8,737000.0,No,13,3.7,1.6,3.2,Active
+EMP01013,Operations,Ops Analyst,40,3.8,636000.0,Yes,40,1.2,3.6,3.4,Resigned
+EMP00425,Finance,Accountant,36,1.7,769000.0,Yes,56,3.4,3.3,2.1,Active
+EMP00293,Customer Support,Support Manager,43,6.8,729000.0,No,3,3.1,2.2,3.7,Active
+EMP00042,HR,HR Generalist,60,0.7,498000.0,Yes,18,2.6,2.0,2.2,Resigned
+EMP01081,Engineering,Engineering Manager,42,3.5,1065000.0,No,60,2.8,2.4,4.2,Active
+EMP00330,Engineering,Senior Engineer,32,2.5,994000.0,No,60,3.6,2.7,3.2,Resigned
+EMP00615,Engineering,Senior Engineer,28,4.9,1069000.0,No,10,3.4,3.0,2.3,Active
+EMP00430,HR,HR Generalist,35,1.2,649000.0,Yes,57,4.1,2.7,2.2,Resigned
+EMP00080,HR,HR Generalist,38,6.5,791000.0,No,55,3.6,4.3,2.9,Active
+EMP00694,Engineering,Software Engineer,27,4.5,1093000.0,No,47,3.5,2.3,2.5,Resigned
+EMP00029,Sales,Sales Manager,32,2.0,699000.0,No,5,3.3,4.7,2.5,Active
+EMP00708,HR,Recruiter,32,0.8,610000.0,No,57,4.7,3.6,2.4,Active
+EMP01003,Sales,Sales Executive,59,4.0,728000.0,No,9,2.2,4.0,2.9,Resigned
+EMP01186,HR,HR Generalist,32,7.8,754000.0,No,10,1.8,3.9,4.0,Active
+EMP00255,Engineering,Engineering Manager,43,6.9,1331000.0,Yes,3,4.4,1.0,3.1,Active
+EMP00161,Sales,Account Manager,45,6.1,919000.0,No,12,2.3,4.2,1.2,Active
+EMP00459,HR,HR Manager,29,0.4,584000.0,No,19,3.6,3.1,3.0,Active
+EMP00384,Operations,Process Lead,39,4.7,849000.0,No,11,2.5,3.3,2.9,Active
+EMP00314,Engineering,Senior Engineer,37,2.1,965000.0,No,8,4.3,2.9,4.0,Active
+EMP00085,Sales,Account Manager,33,7.1,946000.0,No,18,2.7,2.7,2.0,Active
+EMP00575,Customer Support,Support Associate,30,3.6,513000.0,No,47,3.3,3.1,2.9,Active
+EMP00763,Sales,Sales Executive,29,2.9,785000.0,No,57,2.6,3.9,2.6,Active
+EMP00137,Customer Support,Support Associate,32,6.0,669000.0,Yes,25,3.6,3.2,2.6,Resigned
+EMP00112,Sales,Sales Manager,27,1.5,668000.0,No,49,4.3,2.1,3.9,Active
+EMP00195,Sales,Sales Executive,21,3.6,799000.0,No,14,3.6,4.6,3.8,Resigned
+EMP00853,Customer Support,Support Associate,34,2.0,541000.0,Yes,18,4.6,4.2,2.8,Active
+EMP00179,Customer Support,Support Manager,50,1.5,565000.0,Yes,40,4.5,1.8,3.0,Active
+EMP00556,Engineering,Engineering Manager,30,6.5,1467000.0,Yes,25,3.1,1.0,3.4,Active
+EMP00724,Customer Support,Support Lead,52,3.2,525000.0,Yes,10,3.4,3.9,1.9,Active
+EMP00860,Operations,Ops Manager,37,7.7,930000.0,No,45,2.6,3.3,3.3,Active
+EMP00497,Operations,Ops Manager,41,1.7,692000.0,No,46,3.1,3.0,2.4,Active
+EMP00904,Operations,Ops Analyst,40,2.9,799000.0,No,55,3.4,2.8,2.3,Active
+EMP00806,Sales,Sales Manager,38,2.8,761000.0,No,2,3.8,3.1,2.8,Active
+EMP00130,Operations,Ops Manager,37,2.8,714000.0,No,47,4.1,2.6,2.8,Active
+EMP00716,Sales,Account Manager,39,2.3,654000.0,Yes,12,5.0,1.9,4.3,Active
+EMP00338,Finance,Financial Analyst,32,1.9,765000.0,No,59,3.8,2.7,2.8,Active
+EMP00609,Finance,Accountant,41,7.5,1206000.0,No,14,3.3,2.7,3.1,Active
+EMP00125,Sales,Sales Executive,35,3.0,678000.0,No,30,3.6,4.8,2.4,Active
+EMP00196,Sales,Sales Executive,23,3.8,778000.0,No,49,2.7,3.8,2.6,Active
+EMP00227,Sales,Sales Manager,37,3.2,801000.0,No,7,3.6,3.3,2.2,Active
+EMP00690,Operations,Ops Manager,25,2.7,800000.0,No,42,1.9,4.1,3.5,Active
+EMP00269,Sales,Sales Executive,36,5.4,918000.0,No,26,3.8,3.5,3.9,Active
+EMP00153,Sales,Sales Executive,43,4.4,829000.0,Yes,49,3.7,3.8,3.4,Active
+EMP00910,Engineering,Engineering Manager,41,13.3,1607000.0,No,34,2.1,1.8,4.0,Resigned
+EMP00585,Customer Support,Support Manager,37,2.4,627000.0,Yes,51,4.0,3.2,2.1,Active
+EMP00951,Operations,Ops Analyst,35,4.7,706000.0,No,21,4.1,3.5,3.3,Active
+EMP00104,Customer Support,Support Associate,31,2.3,571000.0,Yes,16,4.1,1.5,3.4,Resigned
+EMP00594,Operations,Process Lead,32,0.9,696000.0,No,24,5.0,2.5,3.8,Active
+EMP01120,Customer Support,Support Manager,29,3.5,616000.0,Yes,22,2.7,3.6,4.1,Active
+EMP00787,HR,HR Manager,26,3.4,723000.0,No,35,1.8,3.1,2.8,Active
+EMP01018,Customer Support,Support Manager,30,2.5,474000.0,Yes,21,5.0,3.1,3.2,Active
+EMP00885,Sales,Account Manager,37,2.4,766000.0,No,44,1.6,3.1,3.9,Active
+EMP00777,Finance,Accountant,21,3.2,895000.0,Yes,57,5.0,2.3,2.6,Active
+EMP00949,Customer Support,Support Associate,34,0.4,493000.0,Yes,36,2.3,2.2,3.4,Active
+EMP00850,Customer Support,Support Lead,43,0.9,502000.0,No,13,3.5,1.3,4.0,Active
+EMP00895,HR,HR Generalist,37,7.5,724000.0,No,50,2.5,2.3,3.2,Active
+EMP00228,Operations,Ops Analyst,33,1.1,672000.0,No,25,3.5,3.2,3.3,Active
+EMP01142,HR,Recruiter,30,3.4,759000.0,No,2,2.7,3.4,3.4,Active
+EMP00302,Sales,Sales Manager,39,4.3,713000.0,No,39,3.1,3.5,2.6,Active
+EMP00855,Sales,Sales Executive,24,5.5,960000.0,Yes,23,4.4,2.0,3.8,Active
+EMP00276,Engineering,Senior Engineer,29,0.2,1030000.0,No,59,2.5,3.5,3.1,Resigned
+EMP00127,Engineering,Senior Engineer,51,1.7,972000.0,Yes,43,3.2,2.7,2.9,Resigned
+EMP00406,Customer Support,Support Manager,39,3.9,609000.0,No,57,4.5,3.5,2.6,Resigned
+EMP00776,Customer Support,Support Lead,36,3.7,597000.0,No,17,3.1,2.8,3.5,Active
+EMP00822,Operations,Ops Analyst,28,1.1,727000.0,Yes,3,3.9,2.0,2.9,Active
+EMP00712,Finance,Finance Manager,26,2.5,789000.0,Yes,58,2.8,3.1,3.3,Active
+EMP00766,Sales,Account Manager,46,4.4,878000.0,No,28,3.8,2.8,3.0,Active
+EMP00684,Operations,Ops Analyst,33,17.0,956000.0,No,9,4.1,3.0,3.3,Active
+EMP00750,Customer Support,Support Associate,40,2.3,505000.0,No,7,5.0,3.2,2.8,Active
+EMP01145,Engineering,Software Engineer,48,2.5,1099000.0,Yes,35,3.1,3.4,2.7,Resigned
+EMP00037,Sales,Account Manager,39,4.1,924000.0,No,14,2.9,2.7,3.7,Resigned
+EMP00304,Operations,Process Lead,35,2.4,731000.0,No,14,5.0,2.7,3.5,Active
+EMP00268,Sales,Sales Manager,48,7.1,941000.0,Yes,28,1.7,2.5,4.4,Active
+EMP00835,Finance,Accountant,33,6.4,971000.0,No,1,4.3,2.9,3.9,Active
+EMP00534,Finance,Accountant,30,3.2,1027000.0,No,38,1.6,4.4,3.0,Active
+EMP00546,Operations,Ops Analyst,38,17.2,827000.0,Yes,31,2.3,1.6,3.6,Active
+EMP00213,Sales,Sales Executive,27,3.4,681000.0,No,31,3.8,3.3,3.9,Resigned
+EMP00897,Engineering,Software Engineer,36,4.3,1361000.0,No,25,5.0,2.0,2.7,Active
+EMP00469,Sales,Sales Manager,33,2.7,678000.0,No,46,1.8,2.6,2.7,Active
+EMP00199,Sales,Sales Manager,26,7.2,807000.0,No,9,3.4,3.5,2.6,Active
+EMP01048,HR,Recruiter,37,0.9,518000.0,Yes,39,2.5,2.4,3.8,Resigned
+EMP00868,HR,HR Manager,35,4.4,774000.0,Yes,22,5.0,4.7,3.0,Active
+EMP00673,Customer Support,Support Associate,21,0.9,553000.0,No,30,2.9,2.0,4.2,Active
+EMP00528,Customer Support,Support Associate,31,10.1,718000.0,No,33,2.4,2.6,2.9,Active
+EMP00676,Engineering,Engineering Manager,24,4.5,1289000.0,No,5,1.5,4.3,3.9,Active
+EMP01074,Customer Support,Support Manager,40,1.6,475000.0,Yes,27,4.2,3.2,4.1,Resigned
+EMP00815,Sales,Account Manager,42,0.7,697000.0,Yes,6,1.6,2.4,2.9,Active
+EMP00242,HR,Recruiter,24,4.9,687000.0,No,36,3.5,3.3,1.8,Active
+EMP00343,HR,Recruiter,34,0.9,497000.0,No,42,3.2,3.3,3.4,Active
+EMP00550,Operations,Ops Manager,33,1.7,738000.0,Yes,24,2.4,2.0,2.0,Active
+EMP00387,Finance,Financial Analyst,36,2.0,743000.0,No,3,3.0,3.4,2.1,Resigned
+EMP01124,Sales,Sales Executive,47,2.6,769000.0,No,49,2.6,3.7,3.5,Resigned
+EMP00207,Sales,Account Manager,43,11.1,1142000.0,No,7,2.8,3.1,3.6,Active
+EMP00296,Customer Support,Support Lead,41,13.6,820000.0,No,19,2.9,3.6,3.4,Resigned
+EMP00696,Operations,Process Lead,43,3.9,780000.0,Yes,15,3.5,2.2,3.1,Active
+EMP01059,Operations,Process Lead,34,3.8,763000.0,No,12,2.0,2.8,2.2,Active
+EMP00074,Engineering,Software Engineer,29,3.4,1218000.0,Yes,56,1.6,1.8,2.4,Active
+EMP00606,HR,Recruiter,23,0.9,625000.0,Yes,41,2.2,2.6,2.8,Active
+EMP00105,HR,HR Generalist,51,8.9,876000.0,No,17,4.0,3.9,2.8,Active
+EMP01051,Finance,Accountant,22,3.7,903000.0,No,40,2.3,2.8,2.4,Active
+EMP01025,Finance,Accountant,34,5.5,982000.0,No,32,2.7,2.9,3.0,Active
+EMP00987,Engineering,Engineering Manager,28,7.1,1331000.0,Yes,32,1.9,2.5,4.5,Active
+EMP00017,Operations,Ops Manager,21,0.6,585000.0,Yes,49,4.0,3.3,2.5,Active
+EMP00440,Finance,Finance Manager,25,0.4,803000.0,No,27,4.7,1.4,2.2,Active
+EMP00092,Finance,Financial Analyst,37,1.3,704000.0,No,41,2.4,2.9,2.5,Active
+EMP00089,Sales,Account Manager,33,3.2,792000.0,No,37,3.1,3.2,2.3,Active
+EMP01058,Sales,Sales Executive,28,1.2,697000.0,No,57,1.5,1.2,2.7,Active
+EMP00909,Engineering,Software Engineer,51,4.2,1324000.0,No,23,5.0,1.8,3.3,Active
+EMP00451,Sales,Sales Executive,23,4.3,699000.0,No,4,4.5,5.0,2.9,Active
+EMP00718,Sales,Account Manager,37,1.9,683000.0,Yes,44,4.4,2.4,3.4,Resigned
+EMP00103,Engineering,Engineering Manager,32,5.3,1172000.0,No,18,3.3,3.1,3.3,Active
+EMP00239,Sales,Sales Executive,45,0.6,768000.0,No,52,2.7,4.1,3.9,Active
+EMP00069,Sales,Sales Executive,47,4.2,899000.0,No,31,4.2,3.9,3.9,Active
+EMP00943,Sales,Sales Executive,34,4.0,804000.0,No,8,5.0,4.2,3.0,Active
+EMP00247,Finance,Accountant,24,3.3,802000.0,Yes,49,4.2,3.3,4.0,Active
+EMP00939,Customer Support,Support Manager,41,5.0,658000.0,Yes,24,3.0,3.4,3.5,Active
+EMP01092,Finance,Accountant,30,2.5,763000.0,No,5,2.7,3.7,3.0,Active
+EMP00158,Finance,Finance Manager,34,0.3,853000.0,Yes,40,4.0,2.2,4.6,Active
+EMP00480,Engineering,Engineering Manager,21,0.9,996000.0,Yes,6,4.9,4.0,3.6,Active
+EMP00839,Engineering,Engineering Manager,45,10.1,1518000.0,Yes,47,3.4,2.1,3.4,Active
+EMP00646,Customer Support,Support Manager,31,3.0,498000.0,No,56,2.2,4.0,2.5,Active
+EMP00006,Customer Support,Support Manager,39,5.4,727000.0,No,25,4.2,4.8,3.9,Active
+EMP01098,HR,Recruiter,31,3.8,619000.0,Yes,40,3.4,3.2,3.4,Active
+EMP00872,Sales,Account Manager,43,3.0,853000.0,No,31,3.1,4.1,3.2,Active
+EMP00966,Operations,Process Lead,48,4.6,661000.0,No,27,2.6,4.3,4.5,Resigned
+EMP00019,HR,HR Generalist,37,3.0,738000.0,No,19,3.9,4.2,2.9,Active
+EMP01017,Finance,Accountant,25,2.3,803000.0,Yes,11,2.9,1.7,2.5,Resigned
+EMP00122,Finance,Financial Analyst,28,1.1,723000.0,No,39,5.0,4.4,4.1,Active
+EMP00947,Finance,Accountant,46,3.3,891000.0,No,51,4.0,3.1,2.8,Active
+EMP00662,Customer Support,Support Associate,22,1.7,517000.0,No,4,3.7,3.3,2.8,Active
+EMP01016,Sales,Account Manager,36,4.0,927000.0,No,52,2.1,3.6,2.8,Active
+EMP00275,Finance,Finance Manager,56,6.5,962000.0,Yes,15,3.7,2.5,3.1,Active
+EMP00434,HR,Recruiter,30,1.8,667000.0,Yes,26,3.8,3.2,2.9,Active
+EMP00812,Sales,Sales Executive,30,1.4,679000.0,No,33,3.3,3.9,3.5,Active
+EMP01150,Customer Support,Support Lead,39,6.4,649000.0,No,47,3.0,3.8,3.9,Active
+EMP00312,Engineering,Software Engineer,28,2.1,1181000.0,No,10,3.5,3.1,4.0,Active
+EMP01134,Finance,Finance Manager,34,2.6,825000.0,No,48,3.3,3.5,3.3,Active
+EMP01146,Engineering,Senior Engineer,51,2.6,1058000.0,Yes,50,5.0,3.0,2.6,Active
+EMP00781,Engineering,Software Engineer,39,2.4,1158000.0,No,60,2.9,3.7,3.4,Active
+EMP00547,Engineering,Senior Engineer,25,0.9,891000.0,No,14,2.9,3.3,4.0,Active
+EMP00182,Customer Support,Support Lead,32,4.1,527000.0,No,34,2.8,3.0,2.7,Active
+EMP00185,HR,Recruiter,42,1.5,644000.0,Yes,58,5.0,3.6,3.1,Active
+EMP00407,Engineering,Software Engineer,48,6.0,1407000.0,No,10,3.5,3.7,2.6,Active
+EMP00720,Customer Support,Support Manager,21,1.2,504000.0,No,21,3.9,3.3,2.6,Active
+EMP01023,Customer Support,Support Lead,25,2.9,598000.0,No,1,3.5,2.4,4.3,Active
+EMP00607,Customer Support,Support Lead,37,7.7,678000.0,No,50,3.9,2.6,3.3,Active
+EMP00693,Engineering,Engineering Manager,25,1.7,1065000.0,Yes,33,3.5,2.5,3.3,Active
+EMP00521,Customer Support,Support Associate,30,1.9,514000.0,Yes,51,4.0,1.3,3.1,Resigned
+EMP00866,Customer Support,Support Lead,42,2.6,506000.0,No,41,3.6,2.1,2.5,Active
+EMP01004,Sales,Sales Manager,25,1.3,754000.0,Yes,31,3.5,2.2,3.1,Resigned
+EMP00428,Customer Support,Support Manager,28,7.9,685000.0,Yes,12,3.2,2.9,3.0,Active
+EMP00079,Operations,Ops Analyst,33,6.1,817000.0,No,27,3.7,3.4,1.4,Active
+EMP01010,Operations,Ops Manager,35,1.2,605000.0,No,6,2.9,3.4,2.7,Active
+EMP01198,Finance,Accountant,32,2.0,848000.0,No,57,3.3,4.3,3.1,Active
+EMP00608,Sales,Account Manager,53,8.4,870000.0,No,37,4.4,2.5,2.3,Active
+EMP01076,Engineering,Software Engineer,40,6.3,1214000.0,No,41,3.6,2.8,3.7,Active
+EMP01104,HR,HR Generalist,39,6.7,681000.0,Yes,40,2.5,2.5,5.0,Active
+EMP01064,Finance,Financial Analyst,42,0.7,806000.0,No,19,4.1,4.3,3.0,Active
+EMP00959,Operations,Ops Analyst,38,0.9,719000.0,No,36,2.0,3.6,2.9,Active
+EMP00847,Engineering,Engineering Manager,35,7.7,1317000.0,Yes,43,3.8,2.2,3.5,Active
+EMP00691,Engineering,Senior Engineer,36,1.5,1037000.0,No,46,2.0,2.8,2.9,Active
+EMP01179,Sales,Sales Manager,33,1.2,709000.0,No,22,3.9,3.9,4.0,Active
+EMP01132,Operations,Ops Analyst,38,1.3,709000.0,Yes,14,4.3,3.5,2.2,Active
+EMP00437,Sales,Sales Manager,27,2.7,655000.0,No,13,2.2,2.4,4.4,Active
+EMP00491,Finance,Financial Analyst,31,3.3,886000.0,No,19,4.4,3.4,2.8,Active
+EMP00596,Engineering,Senior Engineer,28,3.1,1284000.0,No,21,2.1,3.1,3.5,Active
+EMP00070,Operations,Ops Analyst,32,1.1,688000.0,No,36,1.8,3.9,2.9,Active
+EMP00809,Operations,Ops Manager,41,1.1,637000.0,No,60,2.6,2.5,3.2,Active
+EMP00012,Customer Support,Support Associate,40,3.5,537000.0,No,59,5.0,3.4,2.6,Active
+EMP00145,Operations,Process Lead,36,15.7,899000.0,Yes,28,2.9,4.2,4.9,Active
+EMP00918,Sales,Account Manager,27,2.0,705000.0,No,21,3.2,2.3,3.9,Active
+EMP00640,Customer Support,Support Associate,31,2.8,600000.0,Yes,40,1.4,2.5,2.6,Active
+EMP00177,Operations,Ops Analyst,32,3.5,632000.0,No,12,4.4,4.3,2.6,Active
+EMP00995,Customer Support,Support Lead,33,2.9,610000.0,No,18,2.6,3.1,4.3,Active
+EMP00441,Customer Support,Support Lead,34,1.5,499000.0,No,56,3.7,3.0,3.3,Resigned
+EMP00522,Engineering,Engineering Manager,21,1.9,1044000.0,Yes,58,1.8,2.1,3.5,Active
+EMP01005,Finance,Accountant,36,2.3,764000.0,Yes,22,2.7,3.1,2.2,Resigned
+EMP00144,Operations,Ops Manager,26,1.0,609000.0,No,54,4.4,4.8,3.9,Active
+EMP00754,Operations,Process Lead,31,2.2,721000.0,No,25,4.2,2.0,2.3,Active
+EMP00520,HR,Recruiter,41,2.2,562000.0,No,24,3.6,3.0,3.5,Active
+EMP00823,Engineering,Engineering Manager,38,3.3,1141000.0,No,2,4.3,3.1,3.3,Active
+EMP00429,Sales,Account Manager,31,2.9,799000.0,No,57,2.6,3.5,4.4,Active
+EMP00613,Customer Support,Support Associate,38,12.3,811000.0,No,44,2.4,3.7,4.9,Active
+EMP01033,Operations,Ops Analyst,31,3.7,826000.0,No,32,3.7,2.7,3.4,Active
+EMP00157,Engineering,Engineering Manager,31,2.9,1034000.0,No,51,3.2,2.8,4.0,Active
+EMP00540,HR,HR Generalist,21,7.7,805000.0,No,24,3.3,4.2,3.7,Active
+EMP00462,Sales,Sales Manager,43,5.8,757000.0,Yes,17,2.9,3.0,3.2,Active
+EMP00577,Customer Support,Support Lead,43,5.6,640000.0,No,28,4.8,3.4,2.5,Active
+EMP00256,HR,Recruiter,33,6.4,741000.0,No,30,3.0,3.1,2.2,Active
+EMP00980,Sales,Account Manager,34,2.1,840000.0,No,48,3.4,3.4,2.8,Active
+EMP01007,Customer Support,Support Lead,34,2.0,575000.0,No,39,3.2,2.6,3.2,Active
+EMP00561,Sales,Sales Manager,33,1.7,806000.0,No,12,4.2,2.4,2.1,Active
+EMP00209,Sales,Account Manager,47,2.7,664000.0,Yes,14,1.7,3.5,2.4,Active
+EMP00911,HR,Recruiter,38,1.9,584000.0,Yes,54,4.6,2.4,3.4,Resigned
+EMP00002,Operations,Ops Manager,23,3.2,723000.0,No,60,2.9,3.3,3.6,Active
+EMP00270,Sales,Sales Manager,30,7.4,822000.0,No,56,1.8,2.3,4.0,Active
+EMP00266,Sales,Account Manager,38,3.9,691000.0,Yes,51,1.6,2.3,3.9,Resigned
+EMP00915,Customer Support,Support Lead,35,7.9,618000.0,No,19,3.4,2.7,3.1,Active
+EMP00231,Sales,Sales Manager,34,4.3,872000.0,No,48,5.0,2.9,2.8,Active
+EMP00807,Finance,Finance Manager,37,2.9,889000.0,No,11,3.1,4.3,3.3,Active
+EMP01197,Engineering,Senior Engineer,32,1.6,937000.0,No,15,5.0,4.2,3.4,Active
+EMP00865,Sales,Account Manager,46,3.4,732000.0,Yes,21,3.3,2.0,3.5,Active
+EMP01067,Engineering,Senior Engineer,43,2.5,1074000.0,Yes,28,3.6,2.8,2.8,Active
+EMP00874,Engineering,Senior Engineer,35,2.3,1163000.0,No,38,1.9,1.9,2.6,Active
+EMP01085,Customer Support,Support Lead,33,1.6,605000.0,No,59,5.0,3.7,2.0,Active
+EMP00399,Operations,Process Lead,41,4.2,704000.0,No,22,3.0,2.0,3.8,Active
+EMP01107,Sales,Sales Manager,29,4.6,807000.0,No,22,2.0,3.0,5.0,Active
+EMP00046,HR,HR Manager,38,3.6,745000.0,Yes,5,4.2,5.0,3.2,Active
+EMP00162,Customer Support,Support Lead,34,2.8,623000.0,No,34,3.4,3.9,3.7,Active
+EMP00992,HR,Recruiter,32,4.0,647000.0,No,50,2.6,5.0,3.4,Active
+EMP00728,Sales,Sales Manager,30,0.9,720000.0,No,44,4.1,3.5,3.2,Active
+EMP00630,HR,HR Manager,36,3.9,668000.0,No,17,1.9,2.4,2.5,Active
+EMP00289,Operations,Ops Manager,29,4.8,810000.0,No,47,3.2,3.1,3.6,Active
+EMP01060,Finance,Accountant,42,4.8,1081000.0,No,11,4.1,3.1,3.1,Active
+EMP01187,Engineering,Senior Engineer,49,1.4,981000.0,No,53,3.5,4.7,4.0,Resigned
+EMP00576,Operations,Ops Manager,36,1.7,721000.0,No,13,2.5,4.9,3.1,Active
+EMP00851,Sales,Account Manager,40,0.3,632000.0,No,18,4.9,3.2,2.9,Active
+EMP00912,Customer Support,Support Lead,26,7.6,705000.0,No,59,3.5,1.2,2.9,Active
+EMP00737,Sales,Account Manager,35,3.9,907000.0,No,47,2.9,3.3,4.2,Active
+EMP00933,Engineering,Software Engineer,43,8.8,1599000.0,No,14,3.6,2.9,3.3,Active
+EMP00248,Engineering,Engineering Manager,34,4.3,1193000.0,No,20,4.6,2.2,2.8,Active
+EMP00477,Operations,Ops Manager,35,2.2,586000.0,Yes,9,1.0,2.7,3.0,Resigned
+EMP00086,Sales,Account Manager,31,8.5,1021000.0,No,54,3.2,3.7,3.3,Active
+EMP00470,Operations,Ops Analyst,28,5.0,819000.0,No,37,4.0,3.2,3.2,Active
+EMP00226,Customer Support,Support Lead,31,3.2,650000.0,No,57,3.7,2.2,2.7,Active
+EMP00775,Sales,Sales Manager,52,5.2,939000.0,Yes,3,3.2,1.9,2.4,Active
+EMP00332,Sales,Account Manager,46,6.0,840000.0,Yes,30,3.6,2.8,3.1,Active
+EMP00234,Operations,Ops Manager,33,2.9,788000.0,No,24,4.2,4.9,1.8,Active
+EMP00589,Sales,Sales Manager,48,5.1,884000.0,No,55,4.5,3.4,3.4,Active
+EMP00476,Engineering,Senior Engineer,28,3.4,1098000.0,No,13,3.5,2.4,3.4,Active
+EMP00600,Finance,Accountant,32,2.9,907000.0,No,58,4.3,3.4,2.9,Active
+EMP00422,Sales,Sales Manager,34,1.7,662000.0,No,23,3.7,3.3,3.5,Resigned
+EMP00183,Operations,Ops Analyst,30,3.2,723000.0,Yes,3,1.8,3.8,4.2,Resigned
+EMP00989,Engineering,Software Engineer,53,5.1,1194000.0,Yes,42,3.7,2.3,2.6,Resigned
+EMP01001,Sales,Sales Manager,33,1.3,761000.0,No,58,3.3,4.3,2.7,Active
+EMP00050,Sales,Sales Executive,43,0.8,610000.0,Yes,38,1.4,2.1,3.7,Resigned
+EMP01139,Sales,Account Manager,37,4.6,933000.0,No,49,3.9,3.9,2.9,Active
+EMP01030,Engineering,Software Engineer,38,4.6,1301000.0,No,21,3.5,2.5,3.7,Active
+EMP00530,Engineering,Senior Engineer,39,5.9,1258000.0,No,5,3.4,2.4,2.8,Active
+EMP00487,Operations,Process Lead,43,6.6,858000.0,Yes,32,3.7,3.3,4.0,Active
+EMP00498,Finance,Accountant,30,9.2,1288000.0,Yes,15,4.4,3.4,3.2,Active
+EMP00107,Operations,Ops Manager,29,3.5,713000.0,No,54,2.6,4.7,4.7,Active
+EMP00444,Sales,Account Manager,50,4.2,703000.0,No,55,1.8,3.2,2.6,Active
+EMP00647,Sales,Sales Manager,33,4.1,798000.0,No,19,4.2,4.0,4.0,Active
+EMP01037,Engineering,Software Engineer,45,4.6,1043000.0,No,34,2.8,3.8,3.4,Active
+EMP00727,Engineering,Engineering Manager,27,2.9,1089000.0,Yes,43,4.5,3.6,4.0,Resigned
+EMP00191,Customer Support,Support Associate,29,1.3,568000.0,No,2,5.0,4.2,3.0,Active
+EMP00283,Engineering,Senior Engineer,31,6.2,1160000.0,No,24,1.4,3.8,2.5,Resigned
+EMP00030,Finance,Financial Analyst,36,5.7,856000.0,No,51,4.4,3.2,3.3,Active
+EMP00170,Customer Support,Support Manager,33,2.4,528000.0,Yes,4,3.6,3.1,2.8,Resigned
+EMP01002,Operations,Process Lead,34,2.8,627000.0,No,42,3.0,4.4,3.6,Active
+EMP00101,Customer Support,Support Manager,21,4.3,522000.0,Yes,43,1.9,3.6,2.9,Resigned
+EMP00198,Customer Support,Support Manager,30,1.9,589000.0,No,51,2.4,3.8,3.7,Active
+EMP00496,Operations,Ops Manager,39,5.6,801000.0,No,13,3.2,2.0,2.5,Active
+EMP00648,Operations,Process Lead,44,1.4,561000.0,Yes,37,3.9,2.9,2.4,Active
+EMP00988,Sales,Sales Manager,42,1.8,714000.0,No,51,2.4,3.8,2.7,Resigned
+EMP00045,HR,Recruiter,39,4.8,743000.0,No,47,3.1,4.3,1.9,Active
+EMP00711,Customer Support,Support Lead,24,6.2,648000.0,Yes,35,3.5,1.0,2.6,Active
+EMP00374,Engineering,Engineering Manager,49,2.5,1243000.0,Yes,5,3.5,4.6,3.5,Active
+EMP00679,Sales,Sales Executive,32,1.7,743000.0,Yes,3,4.6,2.3,2.5,Active
+EMP00567,HR,HR Generalist,25,3.1,677000.0,No,38,3.9,1.7,2.8,Active
+EMP00848,Finance,Financial Analyst,40,0.7,885000.0,No,36,3.8,2.7,2.7,Active
+EMP00461,Operations,Ops Analyst,29,2.2,656000.0,No,10,3.5,3.1,3.4,Active
+EMP00040,Finance,Financial Analyst,47,1.4,802000.0,No,42,2.0,4.2,2.4,Resigned
+EMP00435,Sales,Account Manager,48,2.8,654000.0,No,47,3.4,2.6,3.1,Active
+EMP00974,Customer Support,Support Lead,41,5.7,690000.0,No,33,2.3,3.5,3.3,Active
+EMP01008,Engineering,Senior Engineer,35,2.2,1124000.0,No,18,4.1,1.9,3.5,Active
+EMP00457,Customer Support,Support Lead,26,3.3,622000.0,No,27,3.3,4.3,4.0,Active
+EMP00261,Sales,Account Manager,21,6.8,998000.0,No,35,3.4,1.0,2.5,Active
+EMP00036,Sales,Account Manager,44,3.1,722000.0,Yes,27,2.3,2.7,3.4,Resigned
+EMP00310,Sales,Sales Manager,48,0.6,655000.0,No,57,3.3,3.8,3.2,Active
+EMP00277,Engineering,Engineering Manager,31,0.2,1071000.0,No,18,2.3,2.7,2.5,Active
+EMP00637,Finance,Finance Manager,34,4.4,1026000.0,No,2,4.8,2.9,3.3,Active
+EMP00655,Customer Support,Support Manager,28,1.9,598000.0,Yes,20,3.7,2.1,3.6,Active
+EMP00623,Customer Support,Support Lead,44,6.2,703000.0,No,57,2.8,4.5,2.7,Active
+EMP00845,Sales,Sales Manager,21,4.3,762000.0,No,58,3.2,1.7,3.1,Active
+EMP00394,Finance,Accountant,45,8.0,1209000.0,Yes,16,2.2,1.5,3.8,Active
+EMP00350,Sales,Sales Manager,41,1.3,649000.0,No,8,2.4,1.8,3.3,Active
+EMP00525,Sales,Account Manager,40,3.7,912000.0,No,15,3.3,3.8,3.3,Active
+EMP00785,Customer Support,Support Lead,37,5.2,560000.0,No,57,3.6,4.0,3.5,Resigned
+EMP00048,Engineering,Senior Engineer,29,1.7,994000.0,No,11,2.7,2.9,4.4,Active
+EMP00204,Sales,Account Manager,41,3.8,843000.0,No,44,2.3,1.8,2.9,Active
+EMP00022,Engineering,Engineering Manager,39,2.7,1217000.0,No,40,2.7,3.5,2.4,Active
+EMP00403,HR,HR Manager,44,1.3,598000.0,No,40,2.9,3.1,4.1,Active
+EMP01108,Engineering,Engineering Manager,43,6.0,1428000.0,No,51,5.0,3.8,3.3,Active
+EMP01155,Operations,Ops Manager,30,12.0,889000.0,No,47,3.6,2.1,3.5,Active
+EMP00990,HR,HR Manager,40,2.0,632000.0,No,56,3.4,3.0,3.7,Active
+EMP00742,Sales,Account Manager,37,3.9,731000.0,Yes,29,3.8,1.5,1.8,Active
+EMP01148,HR,HR Manager,38,0.1,629000.0,Yes,34,4.6,3.4,2.7,Resigned
+EMP00034,Engineering,Software Engineer,34,4.9,1266000.0,Yes,12,4.4,2.0,3.0,Active
+EMP00788,Engineering,Senior Engineer,31,1.3,1068000.0,No,28,2.9,3.5,3.8,Active
+EMP00924,Operations,Ops Manager,36,6.2,926000.0,No,33,3.8,4.2,2.7,Active
+EMP01044,Finance,Financial Analyst,43,4.1,816000.0,No,2,4.8,2.4,3.2,Active
+EMP01175,Operations,Process Lead,43,6.0,748000.0,Yes,9,2.8,4.5,2.1,Active
+EMP00580,Engineering,Senior Engineer,37,5.5,1350000.0,Yes,13,3.3,3.9,3.9,Active
+EMP00482,Sales,Sales Executive,39,2.2,777000.0,Yes,31,2.2,3.4,2.7,Active
+EMP00932,Engineering,Engineering Manager,34,0.8,1118000.0,No,35,3.3,2.4,3.7,Active
+EMP00357,HR,HR Manager,39,7.5,876000.0,No,35,3.9,3.8,3.4,Active
+EMP00760,Operations,Process Lead,38,3.7,629000.0,No,15,4.2,3.8,2.3,Active
+EMP00093,Operations,Process Lead,52,10.5,1074000.0,No,23,4.1,1.8,4.0,Active
+EMP01176,HR,HR Manager,21,3.9,649000.0,No,55,3.4,3.3,4.0,Active
+EMP00804,Operations,Ops Analyst,23,3.6,654000.0,No,19,3.9,3.2,3.4,Active
+EMP00746,Operations,Ops Manager,46,8.5,1020000.0,No,24,2.6,5.0,2.6,Active
+EMP00280,Customer Support,Support Lead,38,3.6,577000.0,Yes,42,3.9,2.9,4.5,Active
+EMP00765,Customer Support,Support Associate,51,5.9,559000.0,No,7,1.0,2.9,4.4,Active
+EMP00605,Customer Support,Support Manager,22,2.6,540000.0,Yes,46,2.0,1.7,3.6,Active
+EMP00401,Engineering,Engineering Manager,41,3.4,1302000.0,No,34,3.9,4.4,3.1,Active
+EMP00258,Sales,Sales Executive,24,4.9,870000.0,No,6,2.3,3.5,4.3,Active
+EMP00945,Operations,Ops Manager,46,0.6,653000.0,Yes,17,2.9,2.0,3.6,Active
+EMP01097,Sales,Sales Executive,30,1.7,795000.0,No,33,4.0,3.0,3.0,Active
+EMP01162,Finance,Financial Analyst,35,2.3,808000.0,Yes,13,2.7,4.4,3.4,Active
+EMP00495,HR,HR Generalist,44,0.6,495000.0,No,38,4.1,4.1,2.9,Active
+EMP00773,Operations,Ops Manager,21,5.2,761000.0,No,52,2.8,4.2,5.0,Active
+EMP00551,Operations,Ops Analyst,31,0.4,639000.0,No,7,4.2,2.2,3.0,Active
+EMP00202,Customer Support,Support Associate,38,1.4,528000.0,No,58,3.4,2.7,3.1,Active
+EMP00313,Engineering,Engineering Manager,26,1.7,1116000.0,No,3,3.4,2.3,4.0,Active
+EMP00291,HR,HR Manager,28,1.0,568000.0,No,1,3.9,3.3,4.6,Active
+EMP00764,Sales,Sales Executive,34,3.4,671000.0,No,57,4.1,2.9,2.9,Active
+EMP01137,Operations,Ops Analyst,46,4.5,664000.0,No,4,2.2,3.4,4.2,Active
+EMP00950,Engineering,Engineering Manager,30,10.3,1617000.0,No,11,3.3,4.1,3.2,Active
+EMP00184,Engineering,Senior Engineer,21,2.2,1190000.0,Yes,54,3.6,3.2,2.9,Active
+EMP01177,Operations,Ops Manager,34,1.2,729000.0,Yes,3,3.5,3.3,4.7,Active
+EMP01069,Sales,Account Manager,28,4.0,919000.0,Yes,56,3.4,2.3,2.4,Active
+EMP01031,Operations,Ops Analyst,40,2.3,763000.0,No,19,2.6,3.2,4.0,Active
+EMP00251,Finance,Finance Manager,22,4.7,840000.0,No,43,4.2,4.9,3.2,Active
+EMP00824,Finance,Finance Manager,37,3.3,890000.0,Yes,33,3.5,3.4,3.5,Active
+EMP01100,Sales,Account Manager,23,3.8,681000.0,Yes,34,3.2,3.6,3.3,Active
+EMP00941,Engineering,Senior Engineer,26,10.0,1427000.0,No,40,3.3,2.6,2.3,Active
+EMP00392,Sales,Sales Executive,37,2.2,631000.0,Yes,2,4.5,4.1,4.5,Active
+EMP01093,Engineering,Senior Engineer,39,1.2,949000.0,No,19,3.4,3.8,3.5,Active
+EMP01192,Engineering,Software Engineer,33,0.8,1032000.0,No,17,4.4,4.0,4.0,Resigned
+EMP00905,Customer Support,Support Associate,48,10.6,776000.0,No,30,2.8,3.4,3.0,Active
+EMP00731,Engineering,Senior Engineer,40,5.5,1317000.0,No,40,4.6,4.4,3.1,Active
+EMP00555,Sales,Sales Executive,36,5.6,825000.0,No,41,3.8,2.6,3.4,Active
+EMP00367,HR,Recruiter,47,8.1,844000.0,Yes,53,4.4,2.3,4.3,Active
+EMP00346,HR,Recruiter,32,2.1,679000.0,No,5,3.4,2.8,3.3,Active
+EMP00536,Sales,Sales Executive,42,5.0,817000.0,No,35,2.9,3.8,3.2,Active
+EMP01059,Operations,Process Lead,34,3.8,763000.0,Yes,12,2.0,2.8,2.2,Active
+EMP00920,Operations,Ops Analyst,29,5.5,711000.0,No,8,2.3,2.6,3.0,Active
+EMP00212,Operations,Process Lead,25,1.2,559000.0,No,15,3.5,3.7,2.6,Active
+EMP00503,Customer Support,Support Manager,29,2.0,459000.0,No,35,3.8,4.0,3.9,Active
+EMP00538,Sales,Sales Manager,37,1.8,633000.0,Yes,33,4.6,2.4,2.9,Resigned
+EMP00176,Sales,Sales Executive,41,3.1,659000.0,No,29,3.6,3.3,3.7,Active

@@ -1,0 +1,1022 @@
+[
+  {
+    "row_index": 806,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 682,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 1085,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 266,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 1112,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 409,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 736,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 156,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 6,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 1058,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 986,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 978,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 334,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 1037,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 595,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 65,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 142,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 338,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 559,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 977,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 355,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 363,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 916,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 951,
+    "issue": "duplicate_row",
+    "field": "ALL"
+  },
+  {
+    "row_index": 14,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1158,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 456,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 966,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 838,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1011,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 188,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 597,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 875,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 168,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 752,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 614,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1097,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 52,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 4,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 986,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 754,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 243,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 320,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 652,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1068,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1199,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 298,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 448,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 327,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 42,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 617,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 232,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 529,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 117,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1172,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 594,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1181,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 1197,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 557,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 809,
+    "issue": "missing_value",
+    "field": "SatisfactionScore"
+  },
+  {
+    "row_index": 647,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 178,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 523,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 111,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 526,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 916,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1209,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 985,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 713,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 341,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 485,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 736,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 361,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 754,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 643,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 9,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1138,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1157,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1145,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 597,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 461,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1022,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 798,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 666,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 584,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 425,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1167,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 257,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 285,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1221,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 234,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 158,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 695,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 177,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 300,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 800,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 479,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1097,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 62,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 676,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 806,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 17,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1052,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 686,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 692,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 115,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 1133,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 518,
+    "issue": "inconsistent_category",
+    "field": "OverTime"
+  },
+  {
+    "row_index": 701,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 508,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 107,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 779,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1122,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 945,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 495,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 694,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1028,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1180,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 6,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1199,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 908,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1026,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 766,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 370,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 332,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 424,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 814,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 592,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 979,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 181,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 897,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 165,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1163,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 627,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1055,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1078,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1029,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1090,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 17,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 968,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 620,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 634,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 916,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 990,
+    "issue": "inconsistent_category",
+    "field": "Department"
+  },
+  {
+    "row_index": 1111,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 911,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 258,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 137,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 737,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 569,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 586,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 1113,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 1023,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 990,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 723,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 363,
+    "issue": "out_of_range_value",
+    "field": "AnnualSalary"
+  },
+  {
+    "row_index": 137,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1087,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 886,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 848,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 905,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1022,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1088,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 221,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 497,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 495,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 925,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 764,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 3,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1214,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1073,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1118,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 818,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 846,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 108,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 754,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 74,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 979,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 1113,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 988,
+    "issue": "wrong_dtype",
+    "field": "TenureYears"
+  },
+  {
+    "row_index": 139,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 107,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 827,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 380,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 557,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 25,
+    "issue": "missing_value",
+    "field": "EmployeeID"
+  },
+  {
+    "row_index": 19,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 924,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 1100,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 571,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 48,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 697,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 795,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 1044,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 288,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 231,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 261,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 1172,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 528,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 739,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 977,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 287,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 458,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  },
+  {
+    "row_index": 979,
+    "issue": "wrong_dtype",
+    "field": "Age"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "avg_risk_score_resigned": 52.2,
+  "avg_risk_score_active": 41.3,
+  "point_biserial_correlation_with_attrition": 0.237,
+  "high_band_resignation_rate_pct": 30.8,
+  "low_band_resignation_rate_pct": 9.6
+}

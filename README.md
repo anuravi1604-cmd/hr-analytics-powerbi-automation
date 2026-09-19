@@ -1,58 +1,95 @@
-# 👥 HR Analytics & Attrition Dashboard
+# HR Retention Risk & Automation Pipeline (v2)
 
-An interactive Streamlit dashboard for exploring employee attrition patterns using a reproducible synthetic HR dataset. The project combines Python data analysis with Power BI / Power Automate design specifications and a clickable UX prototype.
+An HR analytics project that goes from a messy raw export to a validated dataset, a
+retention-risk score, and an automated alert — with every step actually implemented
+and tested, not just designed.
 
-> **Scope note:** This repository is a portfolio prototype. The HR data is synthetic, and the Power BI / Power Automate components are implementation blueprints rather than connected production systems.
+> **Scope note, stated plainly:** the HR data is synthetic and reproducible (seeded
+> generator, not a real company's employee data). The numbers below all come from
+> running this code, not from an estimate. What "automated" means here, precisely:
+> the ETL, risk scoring, and alert-sending pipeline are real, tested, and would work
+> unchanged against a live Microsoft Teams webhook or Power Automate HTTP trigger —
+> but this sandboxed dev environment has no live network access, so the end-to-end
+> test below fires against a local mock endpoint instead of a real Teams channel.
+> Swapping in a real webhook URL requires no code change (see "Going live" below).
 
-## What is implemented
+## What's real and tested here (v2 — rebuilt from the ground up)
 
-- **Synthetic HR dataset:** `data_generator.py` generates 1,200 reproducible employee records with demographics, role, salary, tenure, overtime, satisfaction, performance, and attrition fields.
-- **Interactive dashboard:** `streamlit_app.py` provides department and overtime filters, headcount/attrition KPIs, department-level attrition analysis, overtime vs. attrition charts, and a filtered employee table.
-- **Attrition logic:** The synthetic-data generator deliberately introduces relationships between satisfaction, overtime, work-life balance, tenure, promotion stagnation, salary position, and attrition so the dashboard has patterns to analyze.
-- **Power BI / Power Automate design:** Documentation shows how the analytical workflow could be extended into reporting and alerts. These integrations are not connected to live Microsoft services in this repository.
-- **UX prototype:** `ux_flow_prototype.html` demonstrates a proposed HR retention-alert experience.
+| Component | v1 (prototype) | v2 (this version) |
+|---|---|---|
+| HR data | Synthetic, generated | Synthetic, generated — same honest framing |
+| Data quality issues | Not present | **Real, injected, logged issues** (duplicates, blanks, typos, bad dtypes) with a ground-truth log |
+| ETL / validation | Not implemented | **Real Python pipeline**, detection rate measured against the ground truth: **97.5%** (199/204 known issues caught), runtime ~0.02s for 1,224 rows |
+| Risk scoring | DAX blueprint, untested | **Implemented and validated**: High-risk employees resign at **30.8%** vs **9.6%** for Low-risk — computed with `Status` excluded from the model's inputs |
+| Automation → action | Design doc only, nothing connected | **Tested end-to-end**: 99 high-risk active employees → 99 real HTTP webhook alerts built, sent, and received intact by a local mock Teams endpoint |
+| Power BI / Excel report | Design doc only | **Real .xlsx workbook**, 21,500+ live formulas (SUMIFS/SUMPRODUCT — no hardcoded numbers), 0 formula errors after LibreOffice recalculation |
 
-## Dashboard
+## Pipeline
 
-The Streamlit application is available at the repository's configured Streamlit deployment, if the deployment is active. The app can also be run locally with the instructions below.
+```
+data_generator.py          -> outputs/clean_master_data.csv (1,200 synthetic employees)
+messy_data_generator.py    -> outputs/raw_hris_export.csv + injected_errors_ground_truth.json
+etl_validate.py            -> outputs/cleaned_data.csv + validation_report.{json,md}
+risk_scoring.py            -> outputs/risk_scored_employees.csv + risk_score_validation.json
+automation_alert.py        -> sends Teams-format webhook alerts for High-risk Active employees
+test_automation_endtoend.py-> proves the alert pipeline works, against a local mock endpoint
+build_workbook.py          -> outputs/HR_Analytics_Workbook.xlsx (Assumptions/Cleaned_Data/Risk_Model/Dashboard/Validation_Log)
+```
 
-### Key views
-
-- Attrition rate by department
-- Overtime and attrition distribution
-- Headcount, resignations, attrition rate, and average salary for the selected filters
-- Employee-level data preview
-
-## Data generation
-
-The dataset is generated locally with a fixed random seed (`42`) for reproducibility. It is **synthetic data**, not a real company employee database.
-
-The generator creates 1,200 records by default and uses rule-based probability adjustments to produce an `Attrition` outcome. Therefore, patterns found in the dashboard describe the generated dataset; they should not be presented as findings from a real workforce study.
-
-## Repository assets
-
-- `streamlit_app.py` — interactive Streamlit dashboard
-- `data_generator.py` — synthetic HR data generator
-- `hr_employee_data.csv` — generated dataset used by the dashboard
-- `power_query_m.txt` — proposed Power Query transformations
-- `dax_measures.md` — proposed DAX measures for a Power BI implementation
-- `power_automate_flow.md` — Power Automate implementation blueprint
-- `FIGMA_UX_FLOW.md` — UX specification
-- `ux_flow_prototype.html` — clickable UX prototype
-- `dashboard_design.md` — dashboard design specification
-- `vba_macro.bas` — example VBA validation logic
-
-## Run locally
+Run everything in order with:
 
 ```bash
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+python3 run_pipeline.py
 ```
 
-## Technology
+## Risk scoring methodology
 
-Python, Pandas, Streamlit, Plotly, Power Query, DAX, VBA, Power Automate (design), and Figma-style UX prototyping.
+A weighted composite of six drivers (weights sum to 1.0, editable in the workbook's
+`Assumptions` sheet): overtime status, satisfaction score, months since promotion,
+salary percentile within department, work-life balance, and tenure. Implemented
+identically in `risk_scoring.py` (Python, used to validate the model) and as live
+Excel formulas in the workbook's `Risk_Model` sheet (used for the deliverable).
 
-## License
+**Validation, not just computation:** the model never sees `Status` (Active/Resigned)
+as an input. After scoring, we check whether the score actually separates people who
+left from people who stayed — it does: employees in the High-risk band resigned at
+30.8%, versus 9.6% for Low-risk, a real and repeatable pattern in this dataset.
 
-MIT License. Developed by Anushka.
+## Automation: what "connects to Teams/Outlook" actually means here
+
+`automation_alert.py` builds a real Microsoft Teams **Incoming Webhook MessageCard**
+payload (the exact schema Teams expects) for every High-risk Active employee, and
+sends it over real HTTP via `urllib`. `test_automation_endtoend.py` proves the whole
+pipeline works by standing up a local HTTP server that mimics a Teams webhook
+receiver, running the real alert pipeline against it, and confirming every payload
+was sent and received intact.
+
+**Going live:** set the `HR_ALERT_WEBHOOK_URL` environment variable to a real Teams
+channel's Incoming Webhook URL, or a Power Automate "When an HTTP request is
+received" trigger URL, and run `python3 automation_alert.py` — no code changes
+needed. This repository's test environment has no outbound network access, which is
+why the proof above uses a local mock endpoint instead of a live channel.
+
+## Files
+
+- `data_generator.py`, `messy_data_generator.py` — synthetic data + realistic corruption, with a logged ground truth
+- `etl_validate.py` — real ETL/validation pipeline (Power-Query-equivalent logic)
+- `risk_scoring.py` — weighted risk model + validation against actual attrition
+- `automation_alert.py`, `test_automation_endtoend.py` — Teams-webhook automation, tested end-to-end
+- `build_workbook.py` — generates `outputs/HR_Analytics_Workbook.xlsx` with live formulas
+- `dax_measures.md`, `power_query_m.txt` — the equivalent logic written as native DAX / Power Query M, for a real Power BI Desktop / Power Query implementation
+- `vba_macro.bas` — Excel VBA equivalent of the validation checks in `etl_validate.py` (same logic; VBA itself needs a live Excel/VBA host to run, which isn't available in this repo's test environment — the Python version is the one that's actually executed and tested here)
+- `outputs/` — everything generated by `run_pipeline.py`: cleaned data, validation report, risk scores, automation proof log, and the Excel workbook
+
+## Honest limitations
+
+- The dataset is synthetic. Patterns described here are real patterns *in this
+  generated dataset*, not findings about any real company or workforce.
+- The automation is proven against a local mock endpoint, not a live Teams tenant,
+  because this dev environment has no outbound network access. The payload format
+  and delivery code are real and unchanged from what a live deployment would use.
+- `vba_macro.bas` and the Power Query M script are written to be correct and
+  runnable in a real Excel/Power BI environment, but — unlike the Python pipeline —
+  they have not been executed and verified in this repository, since no licensed
+  Excel/Power BI Desktop instance is available here.

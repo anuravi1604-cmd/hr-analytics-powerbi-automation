@@ -1,0 +1,48 @@
+{
+  "alerts_attempted": 99,
+  "alerts_delivered_http_200": 99,
+  "payloads_actually_received_by_mock_endpoint": 99,
+  "runtime_seconds": 0.3453,
+  "sample_received_payload": {
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "D9534F",
+    "summary": "Retention risk alert: EMP00657",
+    "sections": [
+      {
+        "activityTitle": "\u26a0 High Attrition-Risk Employee Flagged",
+        "facts": [
+          {
+            "name": "Employee ID",
+            "value": "EMP00657"
+          },
+          {
+            "name": "Department",
+            "value": "Customer Support"
+          },
+          {
+            "name": "Role",
+            "value": "Support Manager"
+          },
+          {
+            "name": "Risk Score",
+            "value": "81.6 / 100"
+          },
+          {
+            "name": "Tenure",
+            "value": "1.3 years"
+          },
+          {
+            "name": "Overtime",
+            "value": "Yes"
+          },
+          {
+            "name": "Months Since Promotion",
+            "value": "35"
+          }
+        ],
+        "markdown": true
+      }
+    ]
+  }
+}
