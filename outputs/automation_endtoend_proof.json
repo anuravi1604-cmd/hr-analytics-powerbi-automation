@@ -2,7 +2,7 @@
   "alerts_attempted": 99,
   "alerts_delivered_http_200": 99,
   "payloads_actually_received_by_mock_endpoint": 99,
-  "runtime_seconds": 0.3453,
+  "runtime_seconds": 0.3297,
   "sample_received_payload": {
     "@type": "MessageCard",
     "@context": "http://schema.org/extensions",

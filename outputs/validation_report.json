@@ -2,11 +2,11 @@
   "rows_in_raw_export": 1224,
   "rows_after_cleaning": 1195,
   "rows_dropped_unrecoverable": 0,
-  "runtime_seconds": 0.0214,
+  "runtime_seconds": 0.0145,
   "issues_detected_and_fixed_by_type": {
     "duplicate_row": 15,
     "missing_value": 49,
-    "inconsistent_category": 81,
+    "inconsistent_category": 73,
     "out_of_range_value": 12,
     "wrong_dtype": 42
   },
@@ -18,6 +18,6 @@
     "wrong_dtype": 42
   },
   "total_injected_issues": 204,
-  "total_issues_detected": 199,
-  "detection_rate_percent": 97.5
+  "total_issues_detected": 191,
+  "detection_rate_percent": 93.6
 }

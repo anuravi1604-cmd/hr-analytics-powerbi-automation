@@ -20,7 +20,7 @@ running this code, not from an estimate. What "automated" means here, precisely:
 |---|---|---|
 | HR data | Synthetic, generated | Synthetic, generated — same honest framing |
 | Data quality issues | Not present | **Real, injected, logged issues** (duplicates, blanks, typos, bad dtypes) with a ground-truth log |
-| ETL / validation | Not implemented | **Real Python pipeline**, detection rate measured against the ground truth: **93.6%** (199/204 known issues caught), runtime ~0.02s for 1,224 rows |
+| ETL / validation | Not implemented | **Real Python pipeline**, detection rate measured against the ground truth: **93.6%** (191/204 known issues caught), runtime ~0.02s for 1,224 rows |
 | Risk scoring | DAX blueprint, untested | **Implemented and validated**: High-risk employees resign at **30.8%** vs **9.6%** for Low-risk — computed with `Status` excluded from the model's inputs |
 | Automation → action | Design doc only, nothing connected | **Tested end-to-end**: 99 high-risk active employees → 99 Teams-compatible HTTP webhook alerts built; live external testing successfully delivered 50 alerts before the free endpoint limit, while the full 99-alert run remains covered by the local mock test |
 | Power BI / Excel report | Design doc only | **Real .xlsx workbook**, 21,500+ live formulas (SUMIFS/SUMPRODUCT — no hardcoded numbers), 0 formula errors after LibreOffice recalculation |
